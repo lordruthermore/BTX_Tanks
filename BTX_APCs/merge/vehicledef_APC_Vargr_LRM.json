@@ -1,0 +1,27 @@
+{
+    "TargetID": "vehicledef_APC_Vargr_LRM",
+    "Instructions": [
+        {
+		"JSONPath": "inventory",
+		"Action": "ArrayAdd",
+		"Value":{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_Infantry_Platoon_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"IsFixed": true
+			}
+		},
+        {
+		"JSONPath": "inventory",
+		"Action": "ArrayAdd",
+		"Value":{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_Infantry_Platoon_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"IsFixed": true
+			}
+		}
+    ]
+}

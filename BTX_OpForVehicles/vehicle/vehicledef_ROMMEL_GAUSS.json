@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_ROMMEL_GAUSS",
+    "Name": "Rommel Gauss",
+    "Details": "This 3054 version of the Rommel replaces the standard weaponry with a Gauss Rifle, a pair of Medium Lasers, and a pair of Machine Guns in the turret. For additional anti-infantry capabilities, this version also mounts a pair of Machine Guns on the front of the tank and a single Machine Gun covers the rear. The only real weakness is that the design only provides a half ton of ammunition for all five Machine Guns.",
+    "Icon": "Rommel",
+    "Cost": 3122075,
+    "Rarity": 1,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_ROMMEL_GAUSS",
+  "VehicleTags": {
+    "items": [
+		"unit_vehicle",
+		"unit_heavy",
+		"unit_tracks",
+		"unit_range_medium",
+		"unit_release",
+		"unit_era_2750",
+		"NotDavion",
+		"NotLiao",
+		"NotMarik",
+		"NotKurita",
+		"NotMagistracyOfCanopus",
+		"NotTaurianConcordat",
+		"unit_ext_rare",
+		"unit_ext_rare_Davion",
+		"unit_none_Ives",
+		"unit_none_Liao",
+		"unit_ext_rare_Marik",
+		"unit_rare_Steiner",
+		"unit_ext_rare_Kurita",
+		"unit_ext_rare_Rasalhague",
+		"unit_none_MagistracyOfCanopus",
+		"unit_none_TaurianConcordat",
+		"unit_none_AuriganDirectorate",
+		"unit_none_AuriganRestoration",
+		"unit_none_ComStar",
+		"unit_none_MercenaryReviewBoard",
+		"unit_ext_rare_DuchyOfAndurien",
+		"unit_ext_rare_Andurien",
+		"unit_none_AuriganMercenaries",
+		"unit_none_AuriganPirates",
+		"unit_ext_rare_Locals",
+		"unit_ext_rare_Outworld",
+		"unit_none_Betrayers",
+		"unit_none_MajestyMetals",
+		"unit_very_rare_KellHounds",
+		"unit_very_rare_GrayDeathLegion",
+		"unit_none_FlakJackals",
+		"unit_none_LocalsBrockwayRefugees",
+		"unit_none_SelfEmployed",
+		"unit_none_MasonsMarauders",
+		"unit_none_SteelBeast",
+		"unit_none_RazorbackMercs",
+		"unit_none_RedHareRegiment",
+		"unit_none_EmeraldDawn",
+		"unit_none_SianTriumphant",
+		"unit_none_BlackCalderaDefense",
+		"unit_none_BlackCalderaDefense_Hidden",
+		"unit_none_SecuritySolutionsInc",
+		"unit_none_PaladinProtectionLLC",
+		"unit_none_HouseNakano",
+		"unit_none_HouseKhulan",
+		"unit_none_ProfHorvat",
+		"unit_none_EdCorbu",
+		"unit_none_HostileMercenaries",
+		"unit_none_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 210,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 210,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 200,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 200,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Rear",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Gauss_Gauss_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3054-01-01T00:00:00Z"
+}

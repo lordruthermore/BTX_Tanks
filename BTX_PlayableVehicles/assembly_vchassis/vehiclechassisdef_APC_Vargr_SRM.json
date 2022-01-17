@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Vargr",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

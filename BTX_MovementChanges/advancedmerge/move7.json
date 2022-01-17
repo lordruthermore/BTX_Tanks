@@ -1,0 +1,57 @@
+{
+	"TargetIDs": [
+		"chassisdef_assassin_ASN-101",
+		"chassisdef_assassin_ASN-21",
+		"chassisdef_assassin_ASN-23",
+		"chassisdef_assassin_ASN-SB",
+		"chassisdef_baboon_howler-1",
+		"chassisdef_baboon_howler-4",
+		"chassisdef_black_lanner-A",
+		"chassisdef_black_lanner-B",
+		"chassisdef_black_lanner-C",
+		"chassisdef_black_lanner-D",
+		"chassisdef_black_lanner-PRIME",
+		"chassisdef_cicada_CDA-3C",
+		"chassisdef_duangung_D9-G9",
+		"chassisdef_grendel_mongrel-A",
+		"chassisdef_grendel_mongrel-B",
+		"chassisdef_grendel_mongrel-C",
+		"chassisdef_grendel_mongrel-D",
+		"chassisdef_grendel_mongrel-PRIME",
+		"chassisdef_hermesII_HER-2M",
+		"chassisdef_jackal_JA-KL-1532",
+		"chassisdef_jenner_JR7-A",
+		"chassisdef_jenner_JR7-C",
+		"chassisdef_jenner_JR7-D",
+		"chassisdef_jenner_JR7-F",
+		"chassisdef_jenner_JR7-K",
+		"chassisdef_koshi_mist_lynx-A",
+		"chassisdef_koshi_mist_lynx-B",
+		"chassisdef_koshi_mist_lynx-C",
+		"chassisdef_koshi_mist_lynx-D",
+		"chassisdef_koshi_mist_lynx-E",
+		"chassisdef_koshi_mist_lynx-H",
+		"chassisdef_koshi_mist_lynx-PRIME",
+		"chassisdef_locust_LCT-1D",
+		"chassisdef_mongoose_MON-68",
+		"chassisdef_raptor_RTX-O",
+		"chassisdef_raptor_RTX-OA",
+		"chassisdef_raptor_RTX-OB",
+		"chassisdef_raptor_RTX-OC",
+		"chassisdef_raptor_RTX-OD",
+		"chassisdef_raptor_RTX-OE",
+		"chassisdef_raptor_RTX-OF",
+		"chassisdef_stinger_STG-3Gb",
+		"chassisdef_wraith_TR1",
+		"chassisdef_wraith_TR2"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_7-11cv",
+			}
+		}
+	]
+}

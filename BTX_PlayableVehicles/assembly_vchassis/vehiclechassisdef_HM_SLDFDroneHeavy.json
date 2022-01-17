@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "SLDFHeavy",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

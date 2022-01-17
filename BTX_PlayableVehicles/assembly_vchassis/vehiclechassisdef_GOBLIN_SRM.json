@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Goblin",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

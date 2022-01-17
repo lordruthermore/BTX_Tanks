@@ -1,0 +1,126 @@
+{
+  "Description": {
+    "Id": "vehicledef_GLADIUS",
+    "Name": "Gladius Medium Hover Tank",
+    "Details": "The only weapon the Gladius mounts is a Pontiac 50 Autocannon/10 that is imported from the Taurian Concordat. It carries two tons of ammunition. The main deficiency of this hovertank is its lack of a turret. Since the crew of a Gladius can only fire forward, they are unable to deter pursuit and are especially susceptible to being flanked. With the tank's speed it is likely to flank rather than be flanked, but it is a risk the crew must be aware of.",
+    "Icon": "Gladius",
+    "Cost": 915600,
+    "Rarity": 3,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_GLADIUS",
+  "VehicleTags": {
+    "items": [
+		"unit_vehicle",
+		"unit_medium",
+		"unit_hover",
+		"unit_wheels",
+		"unit_range_medium",
+		"unit_speed_high",
+		"unit_armor_medium",
+		"unit_release",
+		"unit_era_2750",
+		"Steiner",
+		"Kurita",
+		"MagistracyOfCanopus", 
+		"unit_uncommon",
+		"unit_rare_Davion", "unit_rare_DavionA", "unit_rare_DavionA2",
+		"unit_rare_Liao", "unit_rare_LiaoA", "unit_rare_LiaoA2",
+		"unit_rare_Ives",
+		"unit_uncommon_Marik", "unit_uncommon_MarikA", "unit_uncommon_MarikA2",
+		"unit_rare_Steiner", "unit_rare_SteinerA", "unit_rare_SteinerA2",
+		"unit_rare_Kurita", "unit_rare_KuritaA", "unit_rare_KuritaA2",
+		"unit_rare_Rasalhague",
+		"unit_uncommon_MagistracyOfCanopus",
+		"unit_uncommon_TaurianConcordat",
+		"unit_uncommon_AuriganDirectorate",
+		"unit_uncommon_AuriganRestoration",
+		"unit_rare_ComStar",
+		"unit_rare_MercenaryReviewBoard",
+		"unit_rare_DuchyOfAndurien",
+		"unit_rare_Andurien",
+		"unit_uncommon_AuriganMercenaries",
+		"unit_common_AuriganPirates",
+		"unit_uncommon_Locals",
+		"unit_rare_Outworld",
+		"unit_rare_Betrayers",
+		"unit_rare_MajestyMetals",
+		"unit_rare_KellHounds",
+		"unit_rare_GrayDeathLegion",
+		"unit_rare_FlakJackals",
+		"unit_rare_LocalsBrockwayRefugees",
+		"unit_rare_SelfEmployed",
+		"unit_rare_MasonsMarauders",
+		"unit_rare_SteelBeast",
+		"unit_rare_RazorbackMercs",
+		"unit_rare_RedHareRegiment",
+		"unit_rare_EmeraldDawn",
+		"unit_rare_SianTriumphant",
+		"unit_rare_BlackCalderaDefense",
+		"unit_rare_BlackCalderaDefense_Hidden",
+		"unit_rare_SecuritySolutionsInc",
+		"unit_rare_PaladinProtectionLLC",
+		"unit_rare_HouseNakano",
+		"unit_rare_HouseKhulan",
+		"unit_rare_ProfHorvat",
+		"unit_rare_EdCorbu",
+		"unit_uncommon_HostileMercenaries",
+		"unit_rare_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 150,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 150,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3042-01-01T00:00:00Z"
+}

@@ -1,0 +1,162 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_MANTICORE_3055",
+      "Name" : "Manticore 3055",
+      "Details" : "With the rediscovery of Star League lostech, Defiance Industries developed an upgraded version that focuses using advanced tech to improve the tanks weapon array, while retaining as much of original design as possible to ensure easy field upgrade of existing Manticores. The PPC was replaced with a Large Pulse Laser, trading a reduction in range for increased accuracy. The removal of the Medium Laser and associated heat sinks in exchange for a Streak SRM-2 rack frees up space and weight to add Artemis IV FCS to the original SRM and LRM racks. For increased survivability, Defiance increased the Manticore's protection by upgrading its armor to Durallex Super Ferro-Fibrous.",
+      "Icon" : "Manticore",
+      "Cost" : 3192800,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_MANTICORE_3055",
+   "VehicleTags": {
+      "items": [
+		"unit_vehicle",    
+		"unit_heavy",
+		"unit_tracks",  
+		"unit_range_long",    
+		"unit_release",
+		"unit_era_2750",
+		"Davion",
+		"Liao",
+		"Marik",
+		"Steiner",
+		"Kurita",
+		"MagistracyOfCanopus",
+		"TaurianConcordat",
+		"unit_uncommon",
+		"unit_uncommon_Davion", "unit_common_DavionA", "unit_common_DavionA2",
+		"unit_uncommon_Liao", "unit_common_LiaoA", "unit_common_LiaoA2",
+		"unit_uncommon_Ives",
+		"unit_uncommon_Marik", "unit_common_MarikA", "unit_common_MarikA2",
+		"unit_uncommon_Steiner", "unit_common_SteinerA", "unit_common_SteinerA2",
+		"unit_uncommon_Kurita", "unit_common_KuritaA", "unit_common_KuritaA2",
+		"unit_uncommon_Rasalhague",
+		"unit_uncommon_MagistracyOfCanopus",
+		"unit_uncommon_TaurianConcordat",
+		"unit_uncommon_AuriganDirectorate",
+		"unit_uncommon_AuriganRestoration",
+		"unit_uncommon_ComStar",
+		"unit_uncommon_MercenaryReviewBoard",
+		"unit_uncommon_DuchyOfAndurien",
+		"unit_uncommon_Andurien",
+		"unit_uncommon_AuriganMercenaries",
+		"unit_uncommon_AuriganPirates",
+		"unit_uncommon_Locals",
+		"unit_uncommon_Outworld",
+		"unit_uncommon_Betrayers",
+		"unit_uncommon_MajestyMetals",
+		"unit_uncommon_KellHounds",
+		"unit_uncommon_GrayDeathLegion",
+		"unit_uncommon_FlakJackals",
+		"unit_uncommon_LocalsBrockwayRefugees",
+		"unit_uncommon_SelfEmployed",
+		"unit_uncommon_MasonsMarauders",
+		"unit_uncommon_SteelBeast",
+		"unit_uncommon_RazorbackMercs",
+		"unit_uncommon_RedHareRegiment",
+		"unit_uncommon_EmeraldDawn",
+		"unit_uncommon_SianTriumphant",
+		"unit_uncommon_BlackCalderaDefense",
+		"unit_uncommon_BlackCalderaDefense_Hidden",
+		"unit_uncommon_SecuritySolutionsInc",
+		"unit_uncommon_PaladinProtectionLLC",
+		"unit_uncommon_HouseNakano",
+		"unit_uncommon_HouseKhulan",
+		"unit_uncommon_ProfHorvat",
+		"unit_uncommon_EdCorbu",
+		"unit_uncommon_HostileMercenaries",
+		"unit_uncommon_NoFaction"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 215,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 215,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 170,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 170,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 170,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 170,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 130,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 130,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 210,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 210,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_SRM_SSRM2_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Laser_LargeLaserPulse_NU_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_SRM_ASRM6_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_LRM_ALRM10_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 2,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      }
+   ]
+}

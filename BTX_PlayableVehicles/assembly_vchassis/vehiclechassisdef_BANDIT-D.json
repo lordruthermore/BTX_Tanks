@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Bandit",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

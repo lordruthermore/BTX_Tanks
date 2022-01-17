@@ -1,0 +1,128 @@
+{
+  "CustomParts": {
+	"MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_CHEVALIER",
+		"Name" : "Chevalier Light Tank",
+		"Details" : "",
+		"Icon" : "Chevalier",
+		"Cost" : 564,
+		"Rarity" : 0,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_APC_Wheeled",
+	"PathingCapDefID" : "pathingdef_medium_wheeled",
+	"HardpointDataDefID": "hardpointdatadef_chevalier",
+	"PrefabIdentifier": "chrprfvhcl_chevalier",
+	"PrefabBase": "chevalier",
+	"Tonnage" : 35,
+	"weightClass" : "MEDIUM",
+	"BattleValue" : 668,
+	"TopSpeed" : 85,
+	"TurnRadius" : 90,
+	"movementType" : "Wheeled",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 0.85,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+    "Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 4,
+		    "z" : -2
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2.5,
+		    "z" : 4
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 4,
+		    "z" : -2
+		},
+		{
+		    "x" : 0,
+		    "y" : 2.5,
+		    "z" : 4
+		},
+		{
+		    "x" : -1.5,
+		    "y" : 2.5,
+		    "z" : 0
+		},
+		{
+		    "x" : 1.5,
+		    "y" : 2.5,
+		    "z" : 0
+		},
+		{
+		    "x" : 0.0,
+		    "y" : 2.5,
+		    "z" : -4
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 175,
+			"InternalStructure" : 20
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 175,
+			"InternalStructure" : 20
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 175,
+			"InternalStructure" : 20
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 175,
+			"InternalStructure" : 20
+		},
+	    {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 175,
+			"InternalStructure" : 20
+		}
+	]
+}

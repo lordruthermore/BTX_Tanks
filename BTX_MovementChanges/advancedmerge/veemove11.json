@@ -1,0 +1,17 @@
+{
+	"TargetIDs": [
+		"vehiclechassisdef_JEdgar",
+		"vehiclechassisdef_JEdgar_Flamer",
+		"vehiclechassisdef_JEdgar_MG",
+		"vehiclechassisdef_SWIFTWIND_Speed"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_11-17cv",
+			}
+		}
+	]
+}

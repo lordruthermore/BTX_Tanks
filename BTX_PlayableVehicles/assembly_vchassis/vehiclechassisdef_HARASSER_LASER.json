@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Harasser",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

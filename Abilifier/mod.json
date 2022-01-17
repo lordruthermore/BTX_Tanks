@@ -1,0 +1,87 @@
+{
+	"Name": "Abilifier",
+	"DLL": "Abilifier.dll",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "1.1.2.0",
+	"Description": "Allows for choices between abilities when leveling pilots.",
+	"Author": "gnivler, T-Bone",
+	"Website": "",
+	"DependsOn": [
+		"CustomActivatableEquipment"
+	],
+	"OptionallyDependsOn": [
+		"CustomUnits", "BT_Extended_Timeline"
+	],
+	"ConflictsWith": [],
+	"CustomResourceTypes": [],
+	"Settings": {
+		"enableTrace": true,
+		"enableLog": true,
+		"usePopUpsForAbilityDesc": false,
+		"debugXP": false,
+		"enableResolverator": false,
+		"resolveGenTacticsMult": 0.02,
+		"resolveCostTacticsMult": 0,
+		"resolveGenBaseMult": 1.0,
+		"resolveCostBaseMult": 1.0,
+		"extraFirstTierAbilities": 0,
+		"extraAbilities": 1,
+		"extraAbilitiesAllowedPerSkill": 1,
+		"nonTreeAbilities": 3,
+		"cleanUpCombatUI": true,
+		"skillLockThreshold": 8,
+		"usingCACabilitySelector": true,
+		"usingHumanResources": false,
+		"disableCalledShotExploit": false,
+		"proceduralTagCleanup": {
+			"pilot_mech_pilot": [
+				"pilot_nomech_crew"
+			]
+		},
+		"tagTraitForTree": {
+			"pilot_vehicle_crew": "TraitDefIAmTank",
+			"pilot_mech_pilot": "TraitDefIAmMech",
+			"pilot_defaultTree": "TraitDefIAmTank"
+		},
+		"defaultTagTraitForTree": {
+			"pilot_defaultTree": "TraitDefIAmTank"
+		},
+		"defaultTagTraitException": "pilot_mech_pilot",
+		"abilityReqs": {
+			"TraitDefIAmTank": [
+				"AbilityDefG5v",
+				"AbilityDefG8v",
+				"AbilityDefGu5v",
+				"AbilityDefGu8v",
+				"AbilityDefP5v",
+				"AbilityDefP8v",
+				"AbilityDefT8Av"
+			],
+			"TraitDefIAmMech": [
+				"AbilityDefG5",
+				"AbilityDefG8",
+				"AbilityDefGu5",
+				"AbilityDefGu8",
+				"AbilityDefP5",
+				"AbilityDefP8",
+				"AbilityDefT8A"
+			]
+		}
+	},
+	"Manifest": [
+		{
+			"Type": "AbilityDef",
+			"Path": "abilities"
+		},
+		{
+			"Type": "LifepathNodeDef",
+			"Path": "lifepathNode",
+			"AddToDB": false
+		},
+		{ 	"Type": "SimGameConstants",
+			"Path": "simGameConstants",
+			"ShouldMergeJSON": true
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Sturmfeur",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

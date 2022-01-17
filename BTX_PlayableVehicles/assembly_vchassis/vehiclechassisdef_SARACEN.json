@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Saracen",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

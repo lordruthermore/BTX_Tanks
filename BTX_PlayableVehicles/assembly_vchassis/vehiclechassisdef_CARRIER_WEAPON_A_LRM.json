@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "CarrierA",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

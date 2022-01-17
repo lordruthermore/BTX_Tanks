@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_HUNTER_3054",
+    "Name": "Hunter 3054",
+    "Details": "This redesigned variant removes all mounted weapons and replaces them with two Coventry Star Fire LRM-15 racks, each with their own Artemis IV fire control system and 2 tons of ammunition to provide even greater accuracy and firepower. To make room from the additional weapons the engine was downgraded to a Doorman 140 Fusion engine giving it a maximum speed of 64 kph. The StarSlab/5.5 Standard armor was replaced with Star Slab/4 Ferro-Fibrous to save weight, but this also reduced its armor by a significant amount, making it a much easier target to destroy.",
+    "Icon": "Hunter",
+    "Cost": 1527750,
+    "Rarity": 2,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_HUNTER_3054",
+  "VehicleTags": {
+    "items": [
+      "mr-resize-0.70",
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 135,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 135,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 75,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 75,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 70,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 70,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_LRM_ALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3054-01-01T00:00:00Z"
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "SavannahMaster",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Packrat",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

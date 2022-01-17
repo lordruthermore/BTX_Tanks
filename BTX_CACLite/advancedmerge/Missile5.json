@@ -1,0 +1,38 @@
+{
+	"TargetIDs": [
+		"Weapon_LRM_ALRM5_0-STOCK",
+		"Weapon_LRM_ALRM5_1-Delta",
+		"Weapon_LRM_ALRM5_1-LongFire",
+		"Weapon_LRM_ALRM5_1-Telos",
+		"Weapon_LRM_ALRM5_2-Delta",
+		"Weapon_LRM_ALRM5_2-LongFire",
+		"Weapon_LRM_ALRM5_2-Telos",
+		"Weapon_LRM_ALRM5_2-Zeus",
+		"Weapon_LRM_ALRM5_3-Zeus",
+		"Weapon_LRM_CALRM5_0-STOCK",
+		"Weapon_LRM_CLRM5_0-STOCK",
+		"Weapon_LRM_DFLRM5_0-STOCK",
+		"Weapon_LRM_LRM5_0-STOCK",
+		"Weapon_LRM_LRM5_1-Delta",
+		"Weapon_LRM_LRM5_1-LongFire",
+		"Weapon_LRM_LRM5_1-Telos",
+		"Weapon_LRM_LRM5_2-Delta",
+		"Weapon_LRM_LRM5_2-LongFire",
+		"Weapon_LRM_LRM5_2-Telos",
+		"Weapon_LRM_LRM5_2-Zeus",
+		"Weapon_LRM_LRM5_3-Zeus"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"ImprovedBallistic": true,
+			"MissileVolleySize": 5,
+			"MissileFiringIntervalMultiplier": 1,
+			"MissileVolleyIntervalMultiplier": 1,
+			"FireDelayMultiplier": 1,
+			}
+		}
+	]
+}

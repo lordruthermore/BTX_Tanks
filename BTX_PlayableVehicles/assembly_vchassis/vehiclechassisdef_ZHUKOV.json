@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Zhukov",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

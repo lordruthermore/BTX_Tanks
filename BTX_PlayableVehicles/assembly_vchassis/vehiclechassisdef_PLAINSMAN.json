@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Plainsman",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

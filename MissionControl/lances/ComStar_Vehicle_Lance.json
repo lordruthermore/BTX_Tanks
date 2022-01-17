@@ -1,0 +1,9 @@
+{
+  "lanceKey": "ComStar_Vehicle_Lance",
+  "lanceDefId": "lancedef_comstarvee_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+  ]
+}

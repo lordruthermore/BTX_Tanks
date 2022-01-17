@@ -1,0 +1,19 @@
+{
+	"TargetIDs": [
+		"vehicledef_MOBILEHQ",
+		"vehicledef_MOBILEHQ_ARMORED",
+		"vehicledef_MOBILEHQ_LL",
+		"vehicledef_MOBILEHQ_LRM",
+		"vehicledef_MOBILEHQ-ICE",
+		"vehicledef_MOBILEHQ-ICE_LL",
+		"vehicledef_MOBILEHQ-ICE_LRM"
+		
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$.VehicleTags.items[1]",
+		"Action": "ArrayAddAfter",
+		"Value": "mr-resize-1.1"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"TargetIDs": [
+		"Weapon_ATM_ATM12_0-STOCK"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"ImprovedBallistic": true,
+			"MissileVolleySize": 12,
+			"MissileFiringIntervalMultiplier": 1,
+			"MissileVolleyIntervalMultiplier": 1,
+			"FireDelayMultiplier": 1,
+			}
+		}
+	]
+}

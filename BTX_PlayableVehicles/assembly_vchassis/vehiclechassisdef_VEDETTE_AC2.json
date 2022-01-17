@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Vedette",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

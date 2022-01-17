@@ -1,0 +1,138 @@
+{
+  "CustomParts": {
+    "MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_ROMMEL_GAUSS",
+		"Name" : "Rommel Gauss",
+		"Details" : "This 3054 version of the Rommel replaces the standard weaponry with a Gauss Rifle, a pair of Medium Lasers, and a pair of Machine Guns in the turret. For additional anti-infantry capabilities, this version also mounts a pair of Machine Guns on the front of the tank and a single Machine Gun covers the rear. The only real weakness is that the design only provides a half ton of ammunition for all five Machine Guns.",
+		"Icon" : "Rommel",
+		"Cost" : 3122075,
+		"Rarity" : 1,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_ROMMEL",
+   	"PathingCapDefID" : "pathingdef_heavy_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_rommel",
+	"PrefabIdentifier" : "chrprfvhcl_rommel",
+	"PrefabBase" : "rommel",
+	"Tonnage" : 65,
+	"weightClass" : "HEAVY",
+	"BattleValue" : 973,
+	"TopSpeed" : 85,
+	"TurnRadius" : 90,
+	"movementType" : "Tracked",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+	"Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3.5,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0,
+		    "y" : 1.5,
+		    "z" : 4.5
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3.5,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0,
+		    "y" : 1.5,
+		    "z" : 4.5
+	    },
+		{
+		    "x" : -2,
+		    "y" : 3,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 3,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2,
+		    "z" : -4.5
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+				"WeaponMount" : "AntiPersonnel",
+				"Omni" : false
+				},
+				{
+				"WeaponMount" : "AntiPersonnel",
+				"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 330,
+			"InternalStructure" : 35
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 300,
+			"InternalStructure" : 35
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 300,
+			"InternalStructure" : 35
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+				{
+				"WeaponMount" : "AntiPersonnel",
+				"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 280,
+			"InternalStructure" : 35
+		},
+		{
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+				"WeaponMount" : "Energy",
+				"Omni" : false
+				},
+				{
+				"WeaponMount" : "Energy",
+				"Omni" : false
+				},
+				{
+				"WeaponMount" : "Ballistic",
+				"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 300,
+			"InternalStructure" : 35
+		}
+	]
+}

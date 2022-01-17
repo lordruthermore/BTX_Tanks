@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "VonLuckner",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

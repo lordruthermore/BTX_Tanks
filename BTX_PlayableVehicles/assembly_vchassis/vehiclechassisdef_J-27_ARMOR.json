@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "J27Transporter",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

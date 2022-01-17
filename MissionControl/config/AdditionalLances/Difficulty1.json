@@ -1,0 +1,49 @@
+{
+  "LancePool": {
+    "ALL": [ "Generic_Vehicle_Lance" ],
+	"FACTION:DiamondShark:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:GhostBear:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:JadeFalcon:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:NovaCat:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:SmokeJaguar:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:SteelViper:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:Wolf:-100:100": [ "Clan_Vehicle_Lance" ],
+	"FACTION:ComStar:-100:100": [ "ComStar_Vehicle_Lance" ],
+	"FACTION:WordOfBlake:-100:100": ["ComStar_Vehicle_Lance" ],
+	"FACTION:TaurianConcordat:-100:100": [ "ComStar_Vehicle_Lance" ]
+  },
+	"RewardsPerLance": [
+	  {
+		"Type": "ContractBonusRewardFlat",
+		"Value": "25000",
+	  },
+	  {
+		"Type": "ContractBonusRewardPct",
+		"Value": "0.25",
+	  },
+      {
+        "Type": "ContractBonusEmployerReputation",
+        "Value": "1",
+      },
+      {
+        "Type": "ContractBonusTargetReputation",
+        "Value": "0",
+      }
+	],
+  "Allies": {
+    "Max": 0,
+    "ChanceToSpawn": 0.1,
+    "EliteLances": {
+      "Conditions": ["IsAlly"],
+      "Overrides": {
+        "Max": 1,
+        "ChanceToSpawn": 0.2
+      }
+    },
+    "LancePool": {
+      "ALL": [
+        "Generic_Vehicle_Lance"
+      ]
+    }
+  }
+}

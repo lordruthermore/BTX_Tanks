@@ -1,0 +1,139 @@
+{
+	"CustomParts": {
+		"MoveCost": "Hover",
+		"MoveClamp": 0.5
+	},
+	"Description" : {
+		"Id" : "vehiclechassisdef_ZEPHYR_Royal",
+		"Name" : "Royal Zephyr Hovertank",
+		"Details" : "The upgraded model used by the SLDF Royal units enhances the tank's support role by replacing the Short Range Missile launcher with a Narc Missile Beacon and two tons of ammunition.",
+		"Icon" : "Zephyr",
+		"Cost" : 2284350,
+		"Rarity" : 3,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_hover_9-14",
+	"PathingCapDefID" : "pathingdef_medium_hover",
+   	"HardpointDataDefID" : "hardpointdatadef_zephyr",
+	"PrefabIdentifier" : "chrprfvhcl_zephyr",
+	"PrefabBase" : "zephyr",
+	"Tonnage" : 40,
+	"weightClass" : "LIGHT",
+	"BattleValue" : 600,
+	"TopSpeed" : 500,
+	"TurnRadius" : 90,
+	"movementType" : "Wheeled",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+	"Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    },
+		{
+		    "x" : -2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.6,
+		    "z" : -4.0
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+				"WeaponMount" : "Missile",
+				"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 220,
+			"InternalStructure" : 20
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 180,
+			"InternalStructure" : 20
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 180,
+			"InternalStructure" : 20
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+				{
+				"WeaponMount" : "AntiPersonnel",
+				"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 160,
+			"InternalStructure" : 20
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints" : [
+				{
+				"WeaponMount" : "Energy",
+				"Omni" : false
+				},
+				{
+				"WeaponMount" : "Energy",
+				"Omni" : false
+				},
+				{
+				"WeaponMount" : "Energy",
+				"Omni" : false
+				},
+				{
+				"WeaponMount" : "Energy",
+				"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 180,
+			"InternalStructure" : 20
+		}
+	]
+}

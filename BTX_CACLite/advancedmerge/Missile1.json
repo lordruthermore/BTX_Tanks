@@ -1,0 +1,23 @@
+{
+	"TargetIDs": [
+		"Weapon_Narc_Improved_0-STOCK",
+		"Weapon_Narc_Improved_1-Haywire",
+		"Weapon_Narc_Improved_2-Homing",
+		"Weapon_Narc_Standard_0-STOCK",
+		"Weapon_Narc_Standard_1-Ceres_Arms",
+		"Weapon_Narc_Standard_2-Kali_Yama"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"ImprovedBallistic": true,
+			"MissileVolleySize": 1,
+			"MissileFiringIntervalMultiplier": 1,
+			"MissileVolleyIntervalMultiplier": 1,
+			"FireDelayMultiplier": 1,
+			}
+		}
+	]
+}

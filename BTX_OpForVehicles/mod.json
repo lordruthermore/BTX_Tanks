@@ -1,0 +1,15 @@
+{
+	"Name": "BTX_OpForVehicles",
+	"Enabled": true,
+	"ConflictsWith": [ ],
+	"DependsOn": [ "BT_Extended_Timeline" ],
+	"OptionallyDependsOn": [ "BTX_MovementChanges" ],
+	"Description": "Helmtech and Clan vehicles in BTX context.",
+	"Settings": {
+		"debugLog": true
+	},
+	"Manifest": [
+		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis", "ShouldMergeJSON": false, "AddToDB": true },
+		{ "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": false, "AddToDB": true }
+	]
+}

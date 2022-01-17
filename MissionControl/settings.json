@@ -1,0 +1,186 @@
+{
+  "DebugMode": false,
+  "VersionCheck": false,
+  "EnableSkirmishMode": true,
+  "DebugSkirmishMode": false,
+  "EnableFlashpointOverrides": false,
+  "EnableAdditionalPlayerMechsForFlashpoints": true,
+  "NeverFailSimGameInFlashpoints": true,
+  "EnableStoryOverrides": false,
+  "EnableAdditionalPlayerMechsForStory": true,
+  "RandomSpawns": {
+    "Enable": true,
+    "EnableForFlashpoints": false,
+    "EnableForStory": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"]
+  },
+  "HotDropProtection": {
+    "Enable": false,
+    "EnableForFlashpoints": true,
+    "EnableForStory": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "GuardOnHotDrop": false,
+    "EvasionPipsOnHotDrop": 3,
+    "IncludeEnemies": true,
+    "IncludeAllyTurrets": false,
+    "IncludeEnemyTurrets": false
+  },
+  "AdditionalLances": {
+    "Enable": true,
+    "EnableForFlashpoints": false,
+    "EnableForStory": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "IsPrimaryObjectiveIn": ["SimpleBattle", "CaptureBase"],
+    "ExcludeFromAutocomplete": ["DefendBase", "FireMission"],
+    "HideObjective": false,
+    "ShowObjectiveOnLanceDetected": true,
+    "AlwaysDisplayHiddenObjectiveIfPrimary": false,
+    "UseElites": true,
+    "UseDialogue": true,
+    "SkullValueMatters": true,
+    "BasedOnVisibleSkullValue": false,
+    "UseGeneralProfileForSkirmish": true,
+    "DisableWhenMaxTonnage": {
+      "Enable": true,
+      "Limited": false,
+      "LimitedToUnder": 300
+    },
+    "MatchAllyLanceCountToEnemy": false,
+    "DropWeightInfluence": {
+      "Enable": true,
+      "EnemySpawnInfluenceMax": 0.99,
+      "AllySpawnInfluenceMax": 0.99,
+      "EnemySpawnInfluencePerHalfSkullAbove": 0.2,
+      "AllySpawnInfluencePerHalfSkullAbove": -0.2,
+      "EnemySpawnInfluencePerHalfSkullBelow": -0.2,
+      "AllySpawnInfluencePerHalfSkullBelow": 0.2
+    },
+    "DisableAllies": false,
+    "DisableEnemies": false
+  },
+  "ExtendedLances": {
+    "Enable": true,
+    "EnableForFlashpoints": true,
+    "EnableForStory": false,
+    "Autofill": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "SkipWhenTaggedWithAny": ["lance_type_solo"],
+    "SkipWhenTaggedWithAll": [],
+    "SkipWhenExcludeTagsContain": ["no_extended_lance"],
+    "LanceSizes": {
+		"5": [
+		  {
+			"Faction": "Wolf",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "JadeFalcon",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "GhostBear",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "SmokeJaguar",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "NovaCat",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "SteelViper",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "DiamondShark",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "WolfInExile",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "WolfsDragoons",
+			"DifficultyMod": -2
+		  }
+		],
+      "6": [
+		  {
+			"Faction": "ComStar",
+			"DifficultyMod": -4
+		  },
+		  {
+			"Faction": "WordOfBlake",
+			"DifficultyMod": -4
+		  }
+		]
+    }
+  },
+  "ExtendedBoundaries": {
+    "Enable": true,
+    "EnableForFlashpoints": true,
+    "EnableForStory": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "IncreaseBoundarySizeByPercentage": 1.0,
+    "Overrides": [
+      {
+        "MapId": "mapGeneral_frigidSteppes_iTnd",
+        "ContractTypeName": "CaptureBase",
+        "IncreaseBoundarySizeByPercentage": 1.0
+      },
+      {
+        "MapId": "mapGeneral_icyOutpost_iGlc",
+        "ContractTypeName": "CaptureBase",
+        "IncreaseBoundarySizeByPercentage": 1.0
+      },
+      {
+        "MapId": "mapGeneral_highPeak_iGlc",
+        "ContractTypeName": "SimpleBattle",
+        "IncreaseBoundarySizeByPercentage": 1.0
+      },
+      {
+        "ContractTypeName": "FireMission",
+        "IncreaseBoundarySizeByPercentage": 1.0
+      },
+      {
+        "MapId": "mapGeneral_desertDam_aDes",
+        "ContractTypeName": "SimpleBattle",
+        "IncreaseBoundarySizeByPercentage": 1.0
+      }
+    ]
+  },
+  "DynamicWithdraw": {
+    "Enable": false,
+    "EnableForFlashpoints": false,
+    "EnableForStory": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "MinDistanceForZone": 50,
+    "MaxDistanceForZone": 288,
+    "DisorderlyWithdrawalCompatibility": false
+  },
+  "AI": {
+    "FollowPlayer": {
+      "Pathfinding": "Alternative",
+      "Target": "LanceOrder",
+      "StopWhen": "OnEnemyVisible",
+      "MaxDistanceFromTargetBeforeSprinting": 120,
+      "TargetZoneRadius": 120,
+      "TimeToWaitForPathfinding": 60,
+      "TicksToWaitForPathfinding": 20
+    }
+  },
+  "Spawners": {
+    "SpawnLanceAtEdgeBoundary": {
+      "MinBuffer": 100,
+      "MaxBuffer": 200
+    }
+  },
+  "Misc": {
+    "LanceSelectionDivergenceOverride": {
+      "Enable": true,
+      "Divergence": 20
+    }
+  }
+}

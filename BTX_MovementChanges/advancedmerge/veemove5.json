@@ -1,0 +1,44 @@
+{
+	"TargetIDs": [
+		"vehiclechassisdef_ARES",
+		"vehiclechassisdef_HUNTER",
+		"vehiclechassisdef_HUNTER_AMMO",
+		"vehiclechassisdef_HUNTER_LRM10",
+		"vehiclechassisdef_HUNTER_LRM15",
+		"vehiclechassisdef_VEDETTE",
+		"vehiclechassisdef_VEDETTE_AC2",
+		"vehiclechassisdef_VEDETTE_LIAO",
+		"vehiclechassisdef_CENTAURO_AC",
+		"vehiclechassisdef_HUNTER_3054",
+		"vehiclechassisdef_INDRA",
+		"vehiclechassisdef_THOR",
+		"vehiclechassisdef_VEDETTE_ULTRA",
+		"vehiclechassisdef_DAIMYOHQ",
+		"vehiclechassisdef_HeavyTransport_B1",
+		"vehiclechassisdef_J-27",
+		"vehiclechassisdef_J-27_ARMOR",
+		"vehiclechassisdef_J-27_FUSION",
+		"vehiclechassisdef_J-27_MG",
+		"vehiclechassisdef_K-27",
+		"vehiclechassisdef_MASHTruck",
+		"vehiclechassisdef_MASHTruck-ICE",
+		"vehiclechassisdef_MASHTruck-L",
+		"vehiclechassisdef_MASHTruck-UA",
+		"vehiclechassisdef_MOBILEHQ-ICE_LL",
+		"vehiclechassisdef_MOBILEHQ-ICE_LRM",
+		"vehiclechassisdef_APC_Sleipnir",
+		"vehiclechassisdef_APC_Sleipnir_LRM",
+		"vehiclechassisdef_APC_Sleipnir_ML",
+		"vehiclechassisdef_APC_Sleipnir_SRM",
+		"vehiclechassisdef_APC_Alsvin"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_5-8cv",
+			}
+		}
+	]
+}

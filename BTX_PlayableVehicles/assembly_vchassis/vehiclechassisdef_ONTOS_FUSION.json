@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Ontos",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

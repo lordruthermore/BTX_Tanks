@@ -1,0 +1,142 @@
+{
+"Progression" : {
+    "GunnerySkills" :[
+        [
+            "TraitDefWeaponHit1"
+        ],
+        [
+            "TraitDefWeaponHit2"
+        ],
+        [
+            "TraitDefWeaponHit3"
+        ],
+        [
+            "TraitDefWeaponHit4"
+        ],
+        [
+            "TraitDefWeaponHit5",
+			"AbilityDefG5",
+			"AbilityDefG5v"
+        ],
+        [
+            "TraitDefWeaponHit6"
+        ],
+        [
+            "TraitDefWeaponHit7"
+        ],
+        [
+            "TraitDefWeaponHit8",
+			"AbilityDefG8",
+			"AbilityDefG8v"
+        ],
+        [
+            "TraitDefWeaponHit9"
+        ],
+        [
+            "TraitDefWeaponHit10",
+        ]
+    ],
+    "PilotingSkills" :[
+        [
+            "TraitDefMeleeHit1"
+        ],
+        [
+            "TraitDefMeleeHit2"
+        ],
+        [
+            "TraitDefMeleeHit3"
+        ],
+        [
+            "TraitDefMeleeHit4",
+            "TraitDefUnsteadySet60"
+        ],
+        [
+            "TraitDefMeleeHit5",
+			"AbilityDefP5",
+			"AbilityDefP5v"
+        ],
+        [
+            "TraitDefMeleeHit6",
+            "TraitDefEvasiveChargeAddOne"
+        ],
+        [
+            "TraitDefMeleeHit7",
+            "TraitDefSprintIncrease20"
+        ],
+        [
+            "TraitDefMeleeHit8",
+			"AbilityDefP8",
+			"AbilityDefP8v"
+        ],
+        [
+            "TraitDefMeleeHit9",
+			"TraitDefUnsteadySet80"
+        ],
+        [
+            "TraitDefMeleeHit10",
+			"TraitDefEvasiveChargeAddTwo"
+
+        ]
+    ],
+    "GutsSkills" :[
+        [        ],
+        [        ],
+		[        ],
+        [
+            "TraitDefHealthAddOne"
+        ],
+        [
+            "TraitDefRefireReduceOne",
+			"AbilityDefGu5",
+			"AbilityDefGu5v"
+        ],
+        [
+            "TraitDefOverheatAddFifteen"
+        ],
+		[
+			"TraitDefHealthAddTwo"
+		],
+        [
+            "TraitDefRefireReduceTwo",
+            "AbilityDefGu8",
+            "AbilityDefGu8v"
+        ],
+        [
+            "TraitDefOverheatAddThirty"
+        ],
+        [
+            "TraitDefHealthAddThree"
+        ]
+    ],
+    "TacticsSkills" :[
+        [        ],
+		[        ],
+        [        ],
+        [
+            "TraitDefIndirectReduceOne"
+        ],
+        [
+            "TraitDefMinRangeReduce45",
+			"AbilityDefT5A",
+			"AbilityDefT5Av"
+        ],
+        [
+            "TraitDefCalledShotImprove""
+        ],
+        [
+            "TraitDefIndirectReduceTwo"
+        ],
+        [
+			"TraitDefMinRangeReduce90",
+            "AbilityDefT8A",
+            "AbilityDefT8Av"
+        ],
+        [
+            "TraitDefCalledShotMaster"
+        ],
+        [
+            "TraitDefIndirectReduceThree"
+        ]
+    ],
+}
+}

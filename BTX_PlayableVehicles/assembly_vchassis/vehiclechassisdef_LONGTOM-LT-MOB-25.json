@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "LongTomSPG",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

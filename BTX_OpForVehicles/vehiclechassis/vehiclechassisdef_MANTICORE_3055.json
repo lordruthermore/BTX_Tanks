@@ -1,0 +1,132 @@
+{
+  "CustomParts": {
+	"MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_MANTICORE_3055",
+		"Name" : "Manticore 3055",
+		"Details" : "With the rediscovery of Star League lostech, Defiance Industries developed an upgraded version that focuses using advanced tech to improve the tanks weapon array, while retaining as much of original design as possible to ensure easy field upgrade of existing Manticores. The PPC was replaced with a Large Pulse Laser, trading a reduction in range for increased accuracy. The removal of the Medium Laser and associated heat sinks in exchange for a Streak SRM-2 rack frees up space and weight to add Artemis IV FCS to the original SRM and LRM racks. For increased survivability, Defiance increased the Manticore's protection by upgrading its armor to Durallex Super Ferro-Fibrous.",
+		"Icon" : "Manticore",
+		"Cost" : 3192800,
+		"Rarity" : 0,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_MANTICORE",
+   	"PathingCapDefID" : "pathingdef_heavy_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_manticore",
+	"PrefabIdentifier" : "chrPrfVhcl_manticore",
+	"PrefabBase" : "manticore",
+	"Tonnage" : 60,
+	"weightClass" : "HEAVY",
+	"BattleValue" : 993,
+	"TopSpeed" : 85,
+	"TurnRadius" : 90,
+	"movementType" : "Tracked",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+	"Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3.5,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2,
+		    "z" : 3
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3.5,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2,
+		    "z" : 3
+	    },
+		{
+		    "x" : -3,
+		    "y" : 1.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 3,
+		    "y" : 1.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -4
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 84,
+			"InternalStructure" : 12
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 66,
+			"InternalStructure" : 12
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 66,
+			"InternalStructure" : 12
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 52,
+			"InternalStructure" : 12
+		},
+	  {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 84,
+			"InternalStructure" : 12
+		}
+	]
+}

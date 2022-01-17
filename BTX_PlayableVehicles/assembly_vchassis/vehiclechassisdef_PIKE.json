@@ -1,0 +1,12 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Pike",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+   	"HardpointDataDefID" : "hardpointdatadef_irpike",
+	"PrefabIdentifier" : "chrprfvhcl_irpike",
+	"PrefabBase" : "pike",
+}

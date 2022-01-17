@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Saladin",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

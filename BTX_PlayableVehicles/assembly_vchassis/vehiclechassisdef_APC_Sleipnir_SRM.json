@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Sleipnir",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

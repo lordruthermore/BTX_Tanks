@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "SLDFMedium",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

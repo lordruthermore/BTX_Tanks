@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_BLIZZARD",
+    "Name": "Blizzard Hover Transport",
+    "Details": "The hovertank is quite fast at 151 km/h. Though its use of an Internal Combustion Engine keeps costs down, it is also heavy and restricts the amount of equipment the vehicle can utilize. It fulfills its primary role as a troop transport well enough, devoting six tons to cargo space. Where it lacks is in firepower and armor. A scant three tons of Star Slab/3 protect the precious cargo inside. This led commanders to hold the Blizzard in reserve until the last moment.",
+    "Icon": "Blizzard",
+    "Cost": 333125,
+    "Rarity": 3,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_BLIZZARD",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_light",
+	  "unit_hover",
+      "unit_wheels",
+      "unit_range_long",
+      "unit_speed_high",
+      "unit_armor_low",
+      "unit_release",
+		"unit_era_2750",
+      "Marik",
+      "Liao",
+      "unit_uncommon",
+      "unit_rare_Davion",
+      "unit_uncommon_Liao",
+      "unit_uncommon_Marik",
+      "unit_rare_Steiner",
+      "unit_rare_Kurita",
+      "unit_rare_MagistracyOfCanopus",
+      "unit_rare_TaurianConcordat",
+      "unit_rare_AuriganDirectorate",
+      "unit_rare_AuriganRestoration",
+      "unit_rare_ComStar",
+      "unit_rare_MercenaryReviewBoard",
+      "unit_rare_DuchyOfAndurien",
+      "unit_rare_AuriganMercenaries",
+      "unit_very_rare_AuriganPirates",
+      "unit_uncommon_Locals",
+      "unit_rare_Betrayers",
+      "unit_rare_MajestyMetals",
+      "unit_rare_KellHounds",
+      "unit_rare_GrayDeathLegion",
+      "unit_rare_FlakJackals",
+      "unit_rare_LocalsBrockwayRefugees",
+      "unit_rare_SelfEmployed",
+      "unit_rare_MasonsMarauders",
+      "unit_rare_SteelBeast",
+      "unit_rare_RazorbackMercs",
+      "unit_rare_RedHareRegiment",
+      "unit_rare_EmeraldDawn",
+      "unit_rare_SianTriumphant",
+      "unit_rare_BlackCalderaDefense",
+      "unit_rare_BlackCalderaDefense_Hidden",
+      "unit_rare_SecuritySolutionsInc",
+      "unit_rare_PaladinProtectionLLC",
+      "unit_rare_HouseNakano",
+      "unit_rare_HouseKhulan",
+      "unit_rare_ProfHorvat",
+      "unit_rare_EdCorbu",
+      "unit_rare_HostileMercenaries",
+      "unit_rare_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 45,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 45,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3054-01-01T00:00:00Z"
+}

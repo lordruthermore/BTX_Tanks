@@ -1,0 +1,16 @@
+{
+	"TargetIDs": [
+		"mechdef_fireball_ALM-7D",
+		"mechdef_fireball_ALM-8D",
+		"mechdef_fireball_ALM-9D"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_11-17cv",
+			}
+		}
+	]
+}

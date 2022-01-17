@@ -1,0 +1,134 @@
+{
+  "CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_DRILLSON_Streak",
+		"Name" : "Drillson Streak",
+		"Details" : "This updated post-Clan Invasion model of the Drillson from 3053 features an updated weapons package. The HoverTech SRM racks have been removed and more efficient Streak SRM-2s fitted. The venerable Cyclops Eye system has been retired in favor of a modern Large Pulse Laser.",
+		"Icon" : "Drillson",
+		"Cost" : 2619333,
+		"Rarity" : 3,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_DRILLSON",
+   	"PathingCapDefID" : "pathingdef_medium_hover",
+   	"HardpointDataDefID" : "hardpointdatadef_sldfdrone",
+	"PrefabIdentifier" : "chrPrfVhcl_sldfdrone",
+	"PrefabBase" : "sldfdrone",
+	"Tonnage" : 50,
+	"weightClass" : "MEDIUM",
+	"BattleValue" : 993,
+	"TopSpeed" : 500,
+	"TurnRadius" : 90,
+	"movementType" : "Wheeled",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+	"Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    },
+		{
+		    "x" : -2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.6,
+		    "z" : -4.0
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 120,
+			"InternalStructure" : 25
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 95,
+			"InternalStructure" : 25
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 95,
+			"InternalStructure" : 25
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 90,
+			"InternalStructure" : 25
+		},
+	  {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 120,
+			"InternalStructure" : 25
+		}
+	]
+}

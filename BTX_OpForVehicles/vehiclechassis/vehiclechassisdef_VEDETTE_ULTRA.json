@@ -1,0 +1,124 @@
+{
+  "CustomParts": {
+	"MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_VEDETTE_ULTRA",
+		"Name" : "Vedette",
+		"Details" : "A relatively simple and cost-effective upgrade, the machine gun was removed in exchange for more armor and the standard plate replaced with locally produced Hellespont Lite Ferro-Fibrous, boosting the tank's overall protection by 20%. With regards to armaments, the Armstrong J11 autocannon was swapped for an Imperator Ultra series gun. This improvement in firepower allows the crew to attack with an increased rate of fire and at greater ranges than previously possible.",
+		"Icon" : "Vedette",
+		"Cost" : 941000,
+		"Rarity" : 2,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_VEDETTE",
+   	"PathingCapDefID" : "pathingdef_medium_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_vedette",
+	"PrefabIdentifier" : "chrprfvhcl_vedettebase",
+	"PrefabBase" : "vedette",
+	"Tonnage" : 50,
+	"weightClass" : "MEDIUM",
+	"BattleValue" : 993,
+	"TopSpeed" : 85,
+	"TurnRadius" : 90,
+	"movementType" : "Tracked",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+	"Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    },
+		{
+		    "x" : -2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.6,
+		    "z" : -4.0
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 100,
+			"InternalStructure" : 25
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 90,
+			"InternalStructure" : 25
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 90,
+			"InternalStructure" : 25
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 100,
+			"InternalStructure" : 25
+		},
+	  {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Ballistic",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 100,
+			"InternalStructure" : 25
+		}
+	]
+}

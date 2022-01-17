@@ -1,0 +1,24 @@
+{
+	"TargetIDs": [
+		"chassisdef_annihilator_ANH-1A",
+		"chassisdef_annihilator_ANH-1E",
+		"chassisdef_annihilator_ANH-JH",
+		"chassisdef_annihilator_ANH-2A",
+		"chassisdef_urbanmech_UM-R50",
+		"chassisdef_urbanmech_UM-R60",
+		"chassisdef_urbanmech_UM-R60C",
+		"chassisdef_urbanmech_UM-R60L",
+		"chassisdef_urbanmech_UM-R60X",
+		"chassisdef_urbanmech_UM-R63",
+		"chassisdef_urbanmech_UM-R90"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_2-3cv",
+			}
+		}
+	]
+}

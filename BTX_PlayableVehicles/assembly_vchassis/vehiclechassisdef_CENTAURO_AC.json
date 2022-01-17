@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Chevalier",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

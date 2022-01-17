@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Skulker",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

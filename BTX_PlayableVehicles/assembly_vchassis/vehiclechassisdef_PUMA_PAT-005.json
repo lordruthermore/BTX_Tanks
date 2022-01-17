@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Puma",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

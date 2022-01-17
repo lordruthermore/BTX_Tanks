@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "CarrierGuns",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

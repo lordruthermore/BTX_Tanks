@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Marsden",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

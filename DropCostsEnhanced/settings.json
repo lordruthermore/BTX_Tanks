@@ -1,0 +1,12 @@
+{
+  "enableDropCosts" : true,
+  "enableAmmoCosts" : true,
+  "enableHeatCosts" : false,
+  "costFactor" : 0.005,
+  "useCostByTons" : false,
+  "dropCostPerTon" : 50,
+  "roundToNearist" : 500,
+  "debug" : false,
+  "trace" : false,
+  "heatSunkStat" : "CACOverrallHeatSinked"
+}

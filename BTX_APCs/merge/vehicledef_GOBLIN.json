@@ -1,0 +1,16 @@
+{
+    "TargetID": "vehicledef_GOBLIN",
+    "Instructions": [
+        {
+		"JSONPath": "inventory",
+		"Action": "ArrayAdd",
+		"Value":{
+			"MountedLocation": "Front",
+			"ComponentDefID": "Weapon_Infantry_Squad_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"IsFixed": true
+			}
+		}
+    ]
+}

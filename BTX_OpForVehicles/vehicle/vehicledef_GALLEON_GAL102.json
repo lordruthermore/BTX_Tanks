@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_GALLEON_GAL102",
+    "Name": "Galleon 102",
+    "Details": "This 3048 upgrade uses a Fusion Engine to increase the Galleon's top speed to 119 km/h. The Medium Laser is upgraded to a Priestly 600p Medium Pulse Laser, while the small Model 12s are upgraded to Hellion-V Medium Lasers. Jolassa 328 Ferro-Fibrous armor improved the protection for this tank, while a Beagle Active Probe enables the Galleon to find hidden units, its also equipped with a Maxell 500 comsys. Production of this model first began in 3048.",
+    "Icon": "Galleon",
+    "Cost": 1205750,
+    "Rarity": 5,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_GALLEON_GAL102",
+  "VehicleTags": {
+    "items": [
+		"unit_vehicle", 
+		"unit_dlc",  
+		"unit_light",
+		"unit_tracks",  
+		"unit_range_short", 
+		"unit_armor_low",  
+		"unit_release", 
+		"unit_era_2750",
+		"NotLiao",
+		"Marik", 
+		"Kurita",  
+		"unit_rare",
+		"unit_rare_Davion", "unit_rare_DavionA", "unit_rare_DavionA2",
+		"unit_none_Liao", "unit_none_LiaoA", "unit_none_LiaoA2",
+		"unit_none_Ives",
+		"unit_common_Marik", "unit_common_MarikA", "unit_common_MarikA2",
+		"unit_rare_Steiner", "unit_rare_SteinerA", "unit_rare_SteinerA2",
+		"unit_uncommon_Kurita", "unit_uncommon_KuritaA", "unit_uncommon_KuritaA2",
+		"unit_uncommon_Rasalhague",
+		"unit_rare_MagistracyOfCanopus",
+		"unit_rare_TaurianConcordat",
+		"unit_uncommon_AuriganDirectorate",
+		"unit_uncommon_AuriganRestoration",
+		"unit_uncommon_ComStar",
+		"unit_uncommon_MercenaryReviewBoard",
+		"unit_common_DuchyOfAndurien",
+		"unit_common_Andurien",
+		"unit_uncommon_AuriganMercenaries",
+		"unit_rare_AuriganPirates",
+		"unit_rare_Locals",
+		"unit_rare_Outworld",
+		"unit_uncommon_Betrayers",
+		"unit_uncommon_MajestyMetals",
+		"unit_uncommon_KellHounds",
+		"unit_uncommon_GrayDeathLegion",
+		"unit_uncommon_FlakJackals",
+		"unit_rare_LocalsBrockwayRefugees",
+		"unit_uncommon_SelfEmployed",
+		"unit_uncommon_MasonsMarauders",
+		"unit_uncommon_SteelBeast",
+		"unit_uncommon_RazorbackMercs",
+		"unit_uncommon_RedHareRegiment",
+		"unit_uncommon_EmeraldDawn",
+		"unit_none_SianTriumphant",
+		"unit_uncommon_BlackCalderaDefense",
+		"unit_uncommon_BlackCalderaDefense_Hidden",
+		"unit_uncommon_SecuritySolutionsInc",
+		"unit_uncommon_PaladinProtectionLLC",
+		"unit_uncommon_HouseNakano",
+		"unit_uncommon_HouseKhulan",
+		"unit_uncommon_ProfHorvat",
+		"unit_uncommon_EdCorbu",
+		"unit_uncommon_HostileMercenaries",
+		"unit_uncommon_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 125,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 125,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 90,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 90,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 135,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 135,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_NU_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_Sensor_ActiveProbe",
+      "ComponentDefType": "Upgrade",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Right",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Left",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3048-01-01T00:00:00Z"
+}

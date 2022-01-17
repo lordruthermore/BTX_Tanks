@@ -1,0 +1,55 @@
+{
+	"TargetIDs": [
+		"Weapon_Autocannon_CLB10X_0-STOCK",
+		"Weapon_Autocannon_CLB20X_0-STOCK",
+		"Weapon_Autocannon_CLB2X_0-STOCK",
+		"Weapon_Autocannon_CLB5X_0-STOCK",
+		"Weapon_Autocannon_LB10X_0-STOCK",
+		"Weapon_Autocannon_LB10X_1-Western",
+		"Weapon_Autocannon_LB10X_2-Western",
+		"Weapon_Autocannon_LB10X_NU_0-STOCK",
+		"Weapon_Autocannon_LB10X_NU_1-Defiance",
+		"Weapon_Autocannon_LB10X_NU_1-Imperator",
+		"Weapon_Autocannon_LB10X_NU_1-Kali_Yama",
+		"Weapon_Autocannon_LB10X_NU_1-Mydron",
+		"Weapon_Autocannon_LB10X_NU_2-Defiance",
+		"Weapon_Autocannon_LB10X_NU_2-Imperator",
+		"Weapon_Autocannon_LB10X_NU_2-Kali_Yama",
+		"Weapon_Autocannon_LB10X_NU_2-Mydron",
+		"Weapon_Autocannon_LB10X_NU_2-Oriente",
+		"Weapon_Autocannon_LB10X_NU_3-Oriente",
+		"Weapon_Autocannon_LB10X_Sa_0-STOCK",
+		"Weapon_Autocannon_LB20X_0-STOCK",
+		"Weapon_Autocannon_LB20X_1-Shengli_Arms",
+		"Weapon_Autocannon_LB20X_2-Shengli_Arms",
+		"Weapon_Autocannon_LB20X_NU_0-STOCK",
+		"Weapon_Autocannon_LB20X_NU_1-Omnitech",
+		"Weapon_Autocannon_LB20X_NU_1-Shengli",
+		"Weapon_Autocannon_LB20X_NU_2-Omnitech",
+		"Weapon_Autocannon_LB20X_NU_2-Shengli",
+		"Weapon_Autocannon_LB20X_NU_2-TharHes",
+		"Weapon_Autocannon_LB20X_NU_3-TharHes",
+		"Weapon_Autocannon_LB2X_0-STOCK",
+		"Weapon_Autocannon_LB2X_1-Defiance",
+		"Weapon_Autocannon_LB2X_2-Defiance",
+		"Weapon_Autocannon_LB2X_NU_0-STOCK",
+		"Weapon_Autocannon_LB5X_0-STOCK",
+		"Weapon_Autocannon_LB5X_1-GM",
+		"Weapon_Autocannon_LB5X_2-GM",
+		"Weapon_Autocannon_LB5X_NU_0-STOCK",
+		"Weapon_Autocannon_LB5X_NU_1-Mydron",
+		"Weapon_Autocannon_LB5X_NU_2-Mydron",
+		"Weapon_Gauss_Silver_Bullet_Gauss_0-STOCK"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"ImprovedBallistic": true,
+			"ProjectilesPerShot": 1,
+			"FireDelayMultiplier": 0.1,
+			}
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "BTX_CACLite",
+    "Enabled": true,
+
+	"Version": "0.1",
+
+    "Description": "CAC Lite with only the essentials for Playable Vehicles.",
+    "Author": "lordruthermore",
+	
+	"DependsOn": [ "BT_Extended_Timeline", "Custom Ammo Categories" ],
+	"OptionallyDependsOn": [ "BTX_ExtraWeapons" ],
+
+	"Manifest": [
+		{ "Type": "ShipModuleUpgrade", "Path": "shipUpgrades", "AddToDB": true },
+		{ "Type": "AdvancedJSONMerge", "Path": "advancedmerge" }
+    ]
+}

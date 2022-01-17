@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Gallant",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Scimitar",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

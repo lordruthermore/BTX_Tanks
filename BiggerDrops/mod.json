@@ -1,0 +1,31 @@
+{
+	"Name": "BiggerDrops",
+	"Enabled": true,
+	"Version": "1.2.0",
+	"PackagedOn": "2019-11-12T00:00:00Z",
+	"DLL": "BiggerDrops.dll",
+	"DLLEntryPoint": "BiggerDrops.BiggerDrops.Init",
+	"ConflictsWith": [ ],
+	"DependsOn": [ "Mission Control" ],
+	"OptionallyDependsOn": [ "CustomUnits" ],
+	"CustomResourceTypes": [ "DropSlotDef" ],
+	"DataAddendumEntries":[ 
+        { 
+            "name":"BattleTech.ShipUpgradeCategoryEnumeration",
+            "path":"ShipUpgradeCategory.json"
+        }
+	],
+	"Description": "BiggerDrops",
+	"Author": "Morthyum",
+    "Website": "",
+	"Manifest": [
+		{
+            "Type": "ShipModuleUpgrade",
+            "Path": "shipUpgrades"
+        },
+        {
+            "Type": "SimGameStatDescDef",
+            "Path": "statdesc"
+        }
+	]
+}

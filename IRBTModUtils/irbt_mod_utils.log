@@ -1,0 +1,29 @@
+23:34:21.269 === MOD CONFIG BEGIN ===
+23:34:21.270   DEBUG: False Trace: False
+23:34:21.270 
+23:34:21.270 --- FEATURES ---
+23:34:21.270   EnableMovementModifiers: True
+23:34:21.270 
+23:34:21.270 --- MOVEMENT ---
+23:34:21.270   MinimumMove: 40  MinimumJump: 0
+23:34:21.270 
+23:34:21.270 --- DIALOGUE OPTIONS ---
+23:34:21.270   CallsignPath: BattleTech_Data/StreamingAssets/data/nameLists/name_callsign.txt
+23:34:21.270   Portraits: sprites/Portraits/guiTxrPort_DEST_utr.png,sprites/Portraits/guiTxrPort_GenericMW_01_utr.png,sprites/Portraits/guiTxrPort_GenericMW_02_utr.png,sprites/Portraits/guiTxrPort_GenericMW_03_utr.png,sprites/Portraits/guiTxrPort_GenericMW_04_utr.png,sprites/Portraits/guiTxrPort_GenericMW_05_utr.png,sprites/Portraits/guiTxrPort_GenericMW_06_utr.png,sprites/Portraits/guiTxrPort_GenericMW_07_utr.png,sprites/Portraits/guiTxrPort_GenericMW_08_utr.png,sprites/Portraits/guiTxrPort_GenericMW_09_utr.png,sprites/Portraits/guiTxrPort_GenericMW_10_utr.png,sprites/Portraits/guiTxrPort_GenericMW_11_utr.png,sprites/Portraits/guiTxrPort_GenericMW_12_utr.png,sprites/Portraits/guiTxrPort_GenericMW_davion_utr.png,sprites/Portraits/guiTxrPort_GenericMW_default_utr.png,sprites/Portraits/guiTxrPort_GenericMW_kurita_utr.png,sprites/Portraits/guiTxrPort_GenericMW_liao_utr.png,sprites/Portraits/guiTxrPort_GenericMW_marik_utr.png,sprites/Portraits/guiTxrPort_GenericMW_steiner_utr.png
+23:34:21.270 
+23:34:21.270 --- SKILL MODIFIERS ---
+23:34:21.271 Gunnery => ratings: s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,
+23:34:21.271   bonus abilities => multiplier: 1  abilities: AbilityDefG5,AbilityDefG8
+23:34:21.271 
+23:34:21.271 Guts => ratings: s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,
+23:34:21.271   bonus abilities => multiplier: 1  abilities: AbilityDefGu5,AbilityDefGu8
+23:34:21.271 
+23:34:21.271 Piloting => ratings: s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,
+23:34:21.271   bonus abilities => multiplier: 1  abilities: AbilityDefP5,AbilityDefP8
+23:34:21.271 
+23:34:21.271 Tactics => ratings: s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,s1=>0,s2=>1,s3=>1,s4=>2,s5=>2,s6=>3,s7=>3,s8=>4,s9=>4,s10=>5,s11=>6,s12=>6,s13=>6,s14=>6,s15=>7,s16=>7,s17=>7,s18=>7,s19=>8,s20=>8,
+23:34:21.271   bonus abilities => multiplier: 1  abilities: AbilityDefT5A,AbilityDefT8A
+23:34:21.271 
+23:34:21.271 
+23:34:21.271 === MOD CONFIG END ===
+23:34:21.274 Assembly version: 1.22.0.0

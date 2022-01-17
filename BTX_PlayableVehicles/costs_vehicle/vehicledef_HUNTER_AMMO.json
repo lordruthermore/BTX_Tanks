@@ -1,0 +1,17 @@
+{
+  "Description": {
+    "Cost": 1165500,
+  },
+  "VehicleTags": {
+    "items": [
+      "mr-resize-1.0",
+      "unit_vehicle",
+      "unit_light",
+      "unit_tracks",
+      "unit_range_long",
+      "unit_armor_high",
+      "unit_release"
+    ],
+    "tagSetSourceFile": ""
+  },
+}

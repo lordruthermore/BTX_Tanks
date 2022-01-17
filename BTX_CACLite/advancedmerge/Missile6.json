@@ -1,0 +1,43 @@
+{
+	"TargetIDs": [
+		"Weapon_ATM_ATM6_0-STOCK",
+		"Weapon_SRM_ASRM6_0-STOCK",
+		"Weapon_SRM_ASRM6_1-Holly",
+		"Weapon_SRM_ASRM6_1-Irian",
+		"Weapon_SRM_ASRM6_2-Holly",
+		"Weapon_SRM_ASRM6_2-Irian",
+		"Weapon_SRM_ASRM6_2-Valiant",
+		"Weapon_SRM_ASRM6_3-Valiant",
+		"Weapon_SRM_CASRM6_0-STOCK",
+		"Weapon_SRM_CSRM6_0-STOCK",
+		"Weapon_SRM_CSSRM6_0-STOCK",
+		"Weapon_SRM_DFSRM6_0-STOCK",
+		"Weapon_SRM_SRM6_0-STOCK",
+		"Weapon_SRM_SRM6_1-Holly",
+		"Weapon_SRM_SRM6_1-Irian",
+		"Weapon_SRM_SRM6_2-Holly",
+		"Weapon_SRM_SRM6_2-Irian",
+		"Weapon_SRM_SRM6_2-Valiant",
+		"Weapon_SRM_SRM6_3-Valiant",
+		"Weapon_SRM_SSRM6_0-STOCK",
+		"Weapon_SRM_SSRM6_1-Coventry",
+		"Weapon_SRM_SSRM6_1-Holly",
+		"Weapon_SRM_SSRM6_2-Coventry",
+		"Weapon_SRM_SSRM6_2-Holly",
+		"Weapon_SRM_SSRM6_2-Valiant",
+		"Weapon_SRM_SSRM6_3-Valiant"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"ImprovedBallistic": true,
+			"MissileVolleySize": 6,
+			"MissileFiringIntervalMultiplier": 1,
+			"MissileVolleyIntervalMultiplier": 1,
+			"FireDelayMultiplier": 1,
+			}
+		}
+	]
+}

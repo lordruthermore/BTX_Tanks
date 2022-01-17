@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Darter",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Behemoth",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

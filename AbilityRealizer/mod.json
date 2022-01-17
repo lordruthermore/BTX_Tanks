@@ -1,0 +1,46 @@
+{
+	"Name": "AbilityRealizer",
+	"DLL": "AbilityRealizer.dll",
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [
+		"IRBTModUtils",
+		"IRTweaks"
+	],
+	"OptionallyDependsOn": [
+		"Abilifier"
+	],
+	"Version": "1.0.5.0",
+	"Description": "Allows for ability mods to more easily exist.",
+	"Author": "mpstark",
+	"Website": "www.github.com/mpstark/AbilityRealizer",
+	"Manifest": [],
+	"Settings": {
+		"AddTreeAbilities": false,
+		"RemoveNonTreeAbilities": false,
+		"IgnoreAbilities": [],
+		"IgnorePilotsWithTags": [
+			"pilot_release_skirmish", "pilot_release_ksbeta"
+		],
+		"FactionAbilities": {
+			"Wolf": ["TraitClanner"],
+			"SteelViper": ["TraitClanner"],
+			"SmokeJaguar": ["TraitClanner"],
+			"JadeFalcon": ["TraitClanner"],
+			"NovaCat": ["TraitClanner"],
+			"WolfInExile": ["TraitClanner"],
+			"WolfsDragoons": ["TraitComstar"],
+			"ComStar": ["TraitComstar"],
+			"WordOfBlake": ["TraitComstar"]
+		},
+		"TagAbilities": {
+			"pilot_mech_pilot": [
+				"TraitDefIAmMech"
+			],
+			"pilot_vehicle_crew": [
+				"TraitDefIAmTank"
+			],
+		},
+		"SwapAIAbilities": {}
+	}
+}

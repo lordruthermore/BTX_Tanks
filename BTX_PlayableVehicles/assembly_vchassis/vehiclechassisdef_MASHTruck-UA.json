@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "MASHTruck",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

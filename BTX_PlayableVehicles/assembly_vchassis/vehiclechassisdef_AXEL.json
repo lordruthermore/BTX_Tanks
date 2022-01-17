@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Axel",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

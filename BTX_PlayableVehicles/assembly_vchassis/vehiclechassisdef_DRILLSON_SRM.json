@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Drillson",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

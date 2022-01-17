@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Ares",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

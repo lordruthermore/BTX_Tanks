@@ -1,0 +1,18 @@
+{
+    "Name": "BTX_APCs",
+    "Enabled": true,
+
+	"Version": "0.1",
+	
+    "Description": "APCs/Transports have their Infantry Complement represented by a Tank weapons system. Consider them traveling in/on/alongside the Vehicle, or as a form of mechanized Infantry.",
+    "Author": "lordruthermore",
+	
+	"DependsOn": [ "BT_Extended_Timeline" ],
+	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
+
+	"Manifest": [
+		{ "Type": "WeaponDef", "Path": "weapon" },
+		{ "Type": "VehicleChassisDef", "Path": "iconsvchassis", "ShouldMergeJSON": true },
+		{ "Type": "AdvancedJSONMerge", "Path": "merge" }
+		]
+}

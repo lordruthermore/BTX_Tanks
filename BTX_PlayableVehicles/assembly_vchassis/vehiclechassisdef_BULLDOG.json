@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Bulldog",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

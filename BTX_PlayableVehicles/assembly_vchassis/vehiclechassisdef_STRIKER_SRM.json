@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Striker",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

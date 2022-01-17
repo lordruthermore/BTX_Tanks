@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Merkava",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Brutus",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

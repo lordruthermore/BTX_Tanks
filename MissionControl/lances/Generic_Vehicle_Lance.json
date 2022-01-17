@@ -1,0 +1,21 @@
+{
+  "lanceKey": "Generic_Vehicle_Lance",
+  "lanceDefId": "lancedef_tank_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle"
+    },
+    {
+      "unitType": "Vehicle"
+    },
+    {
+      "unitType": "Vehicle"
+    },
+    {
+      "unitType": "Vehicle"
+    }
+  ]
+}

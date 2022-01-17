@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Tokugawa",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

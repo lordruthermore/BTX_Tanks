@@ -1,0 +1,129 @@
+{
+"CustomParts": {
+    "MoveCost": "Hover",
+    "MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_BLIZZARD",
+		"Name" : "Blizzard Hover Transport",
+		"Details" : "The hovertank is quite fast at 151 km/h. Though its use of an Internal Combustion Engine keeps costs down, it is also heavy and restricts the amount of equipment the vehicle can utilize. It fulfills its primary role as a troop transport well enough, devoting six tons to cargo space. Where it lacks is in firepower and armor. A scant three tons of Star Slab/3 protect the precious cargo inside. This led commanders to hold the Blizzard in reserve until the last moment.",
+		"Icon" : "Blizzard",
+		"Cost" : 333125,
+		"Rarity" : 3,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_9-14cv",
+   	"PathingCapDefID" : "pathingdef_medium_hover",
+   	"HardpointDataDefID" : "hardpointdatadef_bandit",
+   	"PrefabIdentifier" : "chrprfvhcl_banditbase",
+   	"PrefabBase" : "bandit",
+	"Tonnage" : 25,
+	"weightClass" : "LIGHT",
+	"BattleValue" : 993,
+	"TopSpeed" : 500,
+	"TurnRadius" : 90,
+	"movementType" : "Wheeled",
+	"SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+	"Radius" : 4,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.5,
+		    "z" : 3.5
+	    },
+		{
+		    "x" : -2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 2.5,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0.0,
+		    "y" : 1.6,
+		    "z" : -4.0
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 80,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 80,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 80,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 80,
+			"InternalStructure" : 15
+		},
+	  {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 80,
+			"InternalStructure" : 15
+		}
+	]
+}

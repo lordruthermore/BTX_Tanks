@@ -1,0 +1,37 @@
+{
+    "Name": "PermanentEvasion",
+    "Enabled": true,
+
+    "Version": "v2.2",
+    "Description": "Let's mechs keep their evasion pips when beeing fired at.",
+    "Author": "Morphyum, donZappo, Redferne",
+    "Website": "https://github.com/Red1812/PermanentEvasion",
+    "Contact": "",
+
+    "DLL": "PermanentEvasion.dll",
+
+    "Settings": {
+		"PercentageToKeepPips": 20,
+		"AcePilotBonusPercentage": 40,
+		"LightKeepPipsCount": 0,
+		"MediumKeepPipsCount": 0,
+		"HeavyKeepPipsCount": 0,
+		"AssaultKeepPipsCount": 0,
+		"AcePilotBonusPips": 1,
+		"PilotSkillToKeepPips": true,
+		"PerSkillPointToKeepPips": 6,
+		"AcePilotPointToKeepPips": 10,
+		"MaxTotalChanceTokeepPips": 95,
+		"MinDamageForEvasionStrip": 10,
+		"AllowHitStrip": false,
+		"Movement210KeepPipsCount": 5,
+		"Movement190KeepPipsCount": 4,
+		"Movement165KeepPipsCount" : 4,
+		"Movement140KeepPipsCount": 4,
+		"Movement120KeepPipsCount": 3,
+		"Movement95KeepPipsCount": 2,
+		"UseMovement": true,
+        "JumpBonusPip": 1,
+		"LinkedToAcePilot": true
+    }
+}

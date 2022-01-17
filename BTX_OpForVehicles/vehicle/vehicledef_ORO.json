@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_ORO",
+    "Name": "Oro Heavy Tank",
+    "Details": "",
+    "Icon": "Oro",
+    "Cost": 17112000,
+    "Rarity": 1,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_ORO",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+	  "noautofix",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_clan",
+      "unit_ext_rare",
+      "unit_none_Davion",
+      "unit_none_Liao",
+	  "unit_none_Ives",
+      "unit_none_Marik",
+      "unit_none_Steiner",
+      "unit_none_Kurita",
+	  "unit_none_Rasalhague",
+      "unit_none_MagistracyOfCanopus",
+      "unit_none_TaurianConcordat",
+	  "unit_none_Outworld",
+      "unit_none_AuriganDirectorate",
+      "unit_none_AuriganRestoration",
+      "unit_none_ComStar",
+      "unit_none_MercenaryReviewBoard",
+      "unit_none_DuchyOfAndurien",
+      "unit_none_AuriganMercenaries",
+      "unit_none_AuriganPirates",
+      "unit_none_Locals",
+      "unit_none_Betrayers",
+      "unit_none_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_none_LocalsBrockwayRefugees",
+      "unit_none_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_none_SianTriumphant",
+      "unit_none_BlackCalderaDefense",
+      "unit_none_BlackCalderaDefense_Hidden",
+      "unit_none_SecuritySolutionsInc",
+      "unit_none_PaladinProtectionLLC",
+      "unit_none_HouseNakano",
+      "unit_none_HouseKhulan",
+      "unit_none_ProfHorvat",
+      "unit_none_EdCorbu",
+      "unit_none_HostileMercenaries",
+      "unit_none_NoFaction",
+      "unit_common_GhostBear",
+      "unit_common_JadeFalcon",
+      "unit_common_NovaCat",
+      "unit_common_SmokeJaguar",
+      "unit_common_Wolf",
+	  "unit_common_DiamondShark"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 105,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 105,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 85,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 85,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Autocannon_CLB20X_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2844-01-01T00:00:00Z"
+}

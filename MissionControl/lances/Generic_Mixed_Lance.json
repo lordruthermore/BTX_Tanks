@@ -1,0 +1,21 @@
+{
+  "lanceKey": "Generic_Mixed_Lance",
+  "lanceDefId": "lancedef_mixed_dynamic_battle1",
+  "lanceTagSet": {
+    "items": ["lance_type_battle"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Vehicle"
+    },
+    {
+      "unitType": "Vehicle"
+    }
+  ]
+}

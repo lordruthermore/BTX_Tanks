@@ -1,0 +1,24 @@
+{
+	"TargetIDs": [
+		"Weapon_Flamer_Flamer_0-STOCK",
+		"Weapon_Flamer_Flamer_1-Hotshot",
+		"Weapon_Flamer_Flamer_2-Olympus",
+		"Weapon_Flamer_CFlamer_0-STOCK",
+		"Weapon_Flamer_Flamer_0-Vehicular"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"ImprovedBallistic": true,
+			"ProjectilesPerShot": 1,
+			"FireDelayMultiplier": 0.1,
+			"FireTerrainChance": 0.75,
+			"FireTerrainStrength": 1,
+			"FireOnSuccessHit": true,
+			"HeatDamage": 10,
+			}
+		}
+	]
+}

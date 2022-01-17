@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Condor",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

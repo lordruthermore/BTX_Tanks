@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "JedgarHover",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

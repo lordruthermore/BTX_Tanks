@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Po",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

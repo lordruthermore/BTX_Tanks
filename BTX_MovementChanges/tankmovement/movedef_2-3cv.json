@@ -1,0 +1,21 @@
+{
+    "Description": {
+        "Id": "movedef_2-3cv",
+        "Name": "2/3 movement at 25m hexes",
+        "Details": "",
+        "Icon": ""
+    },
+    "MaxWalkDistance": 50.0,
+    "MaxSprintDistance": 100.0,
+    "WalkVelocity": 40.0,
+    "RunVelocity": 48.0,
+    "SprintVelocity": 51.0,
+    "LimpVelocity": 18.0,
+    "WalkAcceleration": 25.0,
+    "SprintAcceleration": 30.0,
+    "MaxRadialVelocity": 90.0,
+    "MaxRadialAcceleration": 180.0,
+    "MaxJumpVel": 30.0,
+    "MaxJumpAccel": 15.0,
+    "MaxJumpVerticalAccel": 30.0
+}

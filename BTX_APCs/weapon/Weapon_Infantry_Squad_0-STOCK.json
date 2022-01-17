@@ -1,0 +1,66 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Laser",
+    "WeaponSubType" : "SmallLaser",
+    "MinRange" : 0,
+    "MaxRange" : 270,
+    "RangeSplit" : [
+        90,
+        180,
+        270
+    ],
+    "ammoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 0,
+    "Damage" : 15,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 0.75,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "FireDelayMultiplier": 0.1,
+    "ImprovedBallistic": true,
+    "ProjectilesPerShot": 5,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
+    "Description" : {
+        "Cost" : 50000,
+        "Rarity" : 10,
+        "Purchasable" : false,
+        "Manufacturer" : "Generic",
+        "Model" : "Infantry Squad",
+        "UIName" : "Squad",
+        "Id" : "Weapon_Infantry_Squad_0-STOCK",
+        "Name" : "Squad",
+        "Details" : "The infantry complement of an APC/Transport, one Squad moving in concert with their vehicle. Template is a Foot Squad with Anti-Armor capable weapons - Laser Rifles and Support Lasers.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_close",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

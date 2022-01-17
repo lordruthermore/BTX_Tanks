@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Rotunda",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

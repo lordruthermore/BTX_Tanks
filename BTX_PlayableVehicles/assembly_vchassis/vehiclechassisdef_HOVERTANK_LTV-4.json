@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "LTVhover",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Predator",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

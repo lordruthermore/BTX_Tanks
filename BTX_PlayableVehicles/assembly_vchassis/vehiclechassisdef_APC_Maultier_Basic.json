@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Maultier",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

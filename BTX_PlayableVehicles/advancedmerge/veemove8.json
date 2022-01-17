@@ -1,0 +1,31 @@
+{
+	"TargetIDs": [
+		"vehiclechassisdef_APC_Maxim",
+		"vehiclechassisdef_APC_Maxim_SRM2",
+		"vehiclechassisdef_APC_Maxim_SRM4",
+		"vehiclechassisdef_CONDOR",
+		"vehiclechassisdef_CONDOR_DAVION",
+		"vehiclechassisdef_CONDOR_FLAMER",
+		"vehiclechassisdef_CONDOR_LIAO",
+		"vehiclechassisdef_JEdgar_ICE",
+		"vehiclechassisdef_PEGASUS",
+		"vehiclechassisdef_PEGASUS_MG",
+		"vehiclechassisdef_PEGASUS_MISSILE",
+		"vehiclechassisdef_PEGASUS_UA",
+		"vehiclechassisdef_SALADIN",
+		"vehiclechassisdef_SALADIN_ARMOR",
+		"vehiclechassisdef_SARACEN",
+		"vehiclechassisdef_SCIMITAR",
+		"vehiclechassisdef_SCIMITAR_MISSILE",
+		"vehiclechassisdef_SWIFTWIND_Cargo"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_8-12cv",
+			}
+		}
+	]
+}

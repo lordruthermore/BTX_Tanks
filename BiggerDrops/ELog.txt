@@ -1,0 +1,3 @@
+[00:34:47.135]BiggerDrop log inited... F:\Steam\steamapps\common\BATTLETECH\Mods\BiggerDrops version: 0.0.0.2
+[00:36:07.447]FinishedLoading
+ CU API detected:True CU API v2 detected:False

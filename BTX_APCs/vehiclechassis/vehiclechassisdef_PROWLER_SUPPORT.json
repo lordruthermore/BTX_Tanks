@@ -1,0 +1,67 @@
+{
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 125,
+			"InternalStructure" : 30
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 115,
+			"InternalStructure" : 30
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 115,
+			"InternalStructure" : 30
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 90,
+			"InternalStructure" : 30
+		},
+		{
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 115,
+			"InternalStructure" : 30
+		}
+	]
+}

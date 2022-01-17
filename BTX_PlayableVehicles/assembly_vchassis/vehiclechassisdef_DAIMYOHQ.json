@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "Daimyo",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}

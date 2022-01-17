@@ -1,0 +1,19 @@
+{
+	"TargetIDs": [
+		"chassisdef_dasher_fire_moth-A",
+		"chassisdef_dasher_fire_moth-B",
+		"chassisdef_dasher_fire_moth-C",
+		"chassisdef_dasher_fire_moth-D",
+		"chassisdef_dasher_fire_moth-H",
+		"chassisdef_dasher_fire_moth-PRIME"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$",
+		"Action": "ObjectMerge",
+		"Value": {
+			"MovementCapDefID" : "movedef_10-15cv",
+			}
+		}
+	]
+}

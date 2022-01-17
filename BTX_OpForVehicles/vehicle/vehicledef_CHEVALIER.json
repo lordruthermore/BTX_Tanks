@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_CHEVALIER",
+    "Name": "Chevalier Light Tank",
+    "Details": "",
+    "Icon": "Chevalier",
+    "Cost": 564,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_CHEVALIER",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+	  "noautofix",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_long",
+      "NotDavion",
+      "NotLiao",
+      "NotMarik",
+      "NotKurita",
+	  "NotSteiner",
+      "NotMagistracyOfCanopus",
+      "NotTaurianConcordat",
+	  "ComStar",
+      "unit_ext_rare",
+      "unit_none_Davion",
+      "unit_none_Liao",
+	  "unit_none_Ives",
+      "unit_none_Marik",
+      "unit_none_Steiner",
+      "unit_none_Kurita",
+	  "unit_none_Rasalhague",
+      "unit_none_MagistracyOfCanopus",
+      "unit_none_TaurianConcordat",
+	  "unit_none_Outworld",
+      "unit_none_AuriganDirectorate",
+      "unit_none_AuriganRestoration",
+      "unit_common_ComStar",
+      "unit_none_MercenaryReviewBoard",
+      "unit_none_DuchyOfAndurien",
+      "unit_none_AuriganMercenaries",
+      "unit_none_AuriganPirates",
+      "unit_none_Locals",
+      "unit_none_Betrayers",
+      "unit_none_MajestyMetals",
+      "unit_none_KellHounds",
+      "unit_none_GrayDeathLegion",
+      "unit_none_FlakJackals",
+      "unit_none_LocalsBrockwayRefugees",
+      "unit_none_SelfEmployed",
+      "unit_none_MasonsMarauders",
+      "unit_none_SteelBeast",
+      "unit_none_RazorbackMercs",
+      "unit_none_RedHareRegiment",
+      "unit_none_EmeraldDawn",
+      "unit_none_SianTriumphant",
+      "unit_none_BlackCalderaDefense",
+      "unit_none_BlackCalderaDefense_Hidden",
+      "unit_none_SecuritySolutionsInc",
+      "unit_none_PaladinProtectionLLC",
+      "unit_none_HouseNakano",
+      "unit_none_HouseKhulan",
+      "unit_none_ProfHorvat",
+      "unit_none_EdCorbu",
+      "unit_none_HostileMercenaries",
+      "unit_none_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 130,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 130,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 100,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 100,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_Sa_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2690-01-01T00:00:00Z"
+}

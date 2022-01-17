@@ -1,0 +1,128 @@
+{
+  "CustomParts": {
+    "MoveClamp": 0.5
+  },
+	"Description" : {
+		"Id" : "vehiclechassisdef_GALLEON_GAL102",
+		"Name" : "Galleon 102",
+		"Details" : "This 3048 upgrade uses a Fusion Engine to increase the Galleon's top speed to 119 km/h. The Medium Laser is upgraded to a Priestly 600p Medium Pulse Laser, while the small Model 12s are upgraded to Hellion-V Medium Lasers. Jolassa 328 Ferro-Fibrous armor improved the protection for this tank, while a Beagle Active Probe enables the Galleon to find hidden units, its also equipped with a Maxell 500 comsys. Production of this model first began in 3048.",
+		"Icon" : "Galleon",
+		"Cost" : 1205750,
+		"Rarity" : 5,
+		"Purchasable" : false
+	},
+	"MovementCapDefID" : "movedef_GALLEON",
+	"PathingCapDefID" : "pathingdef_light_tracked",
+	"HardpointDataDefID" : "hardpointdatadef_galleon",
+	"PrefabIdentifier" : "chrPrfVhcl_galleon",
+	"PrefabBase" : "galleon",
+	"Tonnage" : 30,
+	"weightClass" : "LIGHT",
+	"BattleValue" : 564,
+	"TopSpeed" : 85,
+	"TurnRadius" : 90,
+	"movementType" : "Tracked",
+    "SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+    "Radius" : 3,
+	"LOSSourcePositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3.5,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2,
+		    "z" : 3.5
+	    }
+	],
+	"LOSTargetPositions" : [
+		{
+		    "x" : 0,
+		    "y" : 3.5,
+		    "z" : -0.5
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2,
+		    "z" : 3.5
+	    },
+		{
+		    "x" : -2,
+		    "y" : 3,
+		    "z" : 0
+	    },
+		{
+		    "x" : 2,
+		    "y" : 3,
+		    "z" : 0
+	    },
+		{
+		    "x" : 0,
+		    "y" : 2,
+		    "z" : -4.5
+	    }
+	],
+	"Locations" : [
+		{
+			"Location" : "Front",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 70,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 65,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 65,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 70,
+			"InternalStructure" : 15
+		},
+	    {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				}
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 90,
+			"InternalStructure" : 15
+		}
+	]
+}

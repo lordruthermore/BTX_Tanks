@@ -1,0 +1,9 @@
+{
+  "Custom": {
+    "VAssemblyVariant": {
+      "PrefabID": "HeavyB1",
+      "Exclude": false,
+      "Include": true
+    }
+  }
+}
