@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_wealthy",
+		"Name": "IS WEALTHY",
+		"Details": "This pilot is wealthy.",
+		"Icon": "wealthy"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_wealthy"
+	]
+}

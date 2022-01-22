@@ -1,0 +1,14 @@
+{
+	"TargetIDs": [
+		"pilot_sim_starter_behemoth",
+		"pilot_sim_starter_behemoth_d4",
+		"pilot_sim_starter_behemoth_d6"
+	],
+	"Instructions": [
+		{
+		"JSONPath": "$.PilotTags.items",
+		"Action": "ArrayAdd",
+		"Value": "pilot_command"
+		}
+	]
+}

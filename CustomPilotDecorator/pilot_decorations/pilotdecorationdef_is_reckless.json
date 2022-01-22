@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_reckless",
+		"Name": "IS RECKLESS",
+		"Details": "This pilot is reckless.",
+		"Icon": "reckless"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_reckless"
+	]
+}

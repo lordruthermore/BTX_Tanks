@@ -3,7 +3,7 @@
 	"Enabled": true,
 	"ConflictsWith": [ ],
 	"DependsOn": [ "BT_Extended_Timeline" ],
-	"OptionallyDependsOn": [ "BTX_MovementChanges" ],
+	"OptionallyDependsOn": [  ],
 	"Description": "Helmtech and Clan vehicles in BTX context.",
 	"Settings": {
 		"debugLog": true

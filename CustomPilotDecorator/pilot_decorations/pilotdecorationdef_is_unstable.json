@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_unstable",
+		"Name": "IS UNSTABLE",
+		"Details": "This pilot is unstable.",
+		"Icon": "unstable"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_unstable"
+	]
+}

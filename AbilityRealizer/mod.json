@@ -35,10 +35,20 @@
 		},
 		"TagAbilities": {
 			"pilot_mech_pilot": [
-				"TraitDefIAmMech"
+				"TraitDefIAmMech",
+				"AbilityDef_FirstAid",
+				"AbilityDef_CarefulManeuvers"
 			],
 			"pilot_vehicle_crew": [
-				"TraitDefIAmTank"
+				"TraitDefIAmTank",
+				"AbilityDef_FirstAid",
+				"AbilityDef_CarefulManeuvers",
+				"AbilityDef_HullDown"
+			],
+			"pilot_defaultTree": [
+				"TraitDefIAmTank",
+				"AbilityDef_FirstAid",
+				"AbilityDef_CarefulManeuvers"
 			],
 		},
 		"SwapAIAbilities": {}

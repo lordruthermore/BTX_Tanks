@@ -5,5 +5,32 @@
     "items": ["lance_type_battle"]
   },
   "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Mech"
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      }
+    }
   ]
 }

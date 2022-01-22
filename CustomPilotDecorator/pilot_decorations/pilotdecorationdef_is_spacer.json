@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_spacer",
+		"Name": "IS SPACER",
+		"Details": "This pilot has served as a spacer.",
+		"Icon": "spacer"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_spacer"
+	]
+}

@@ -43,7 +43,7 @@
     "overallDeploySize": 5,
     "CountContractMaxUnits4AsUnlimited": true,
     "ConvoyMaxDistFromRoute": 90,
-    "DeployManual": true,
+    "DeployManual": false,
     "Lances": [
       {
         "size": 4,

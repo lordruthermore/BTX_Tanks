@@ -185,7 +185,7 @@
 			},
 			"SpawnProtection": {
 				"ApplyGuard": false,
-				"EvasionPips": 3,
+				"EvasionPips": 4,
 				"ApplyToEnemies": true,
 				"ApplyToAllies": true,
 				"ApplyToNeutrals": true,

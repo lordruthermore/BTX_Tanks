@@ -2,27 +2,30 @@
     "Name": "BTX_PlayableVehicles",
     "Enabled": true,
 
-	"Version": "0.1",
+	"Version": "0.2",
 	
     "Description": "",
     "Author": "lordruthermore",
 	
 	"DependsOn": [ "BT_Extended_Timeline", "BT_Extended", "BT_Extended_Clans", "CustomUnits" ],
+	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
 
 	"Manifest": [
 		{ "Path": "assembly_vchassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
 		{ "Path": "clamp_vchassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
 		{ "Path": "costs_vchassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
 		{ "Path": "costs_vehicle", "Type": "VehicleDef", "ShouldMergeJSON": true },
-		{ "Path": "details_vehicle", "Type": "VehicleDef", "ShouldMergeJSON": true },
 		{ "Path": "hover_vchassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
 		{ "Path": "icons_portraits", "Type": "Sprite" },
 		{ "Path": "icons_vchassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
 		{ "Path": "icons_vehicle", "Type": "VehicleDef", "ShouldMergeJSON": true },
+		{ "Path": "lance", "Type": "LanceDef", "AddToDB": true },
 		{ "Path": "pathing", "Type": "PathingCapabilitiesDef", "AddToDB": true },
+		{ "Path": "prefab_changes", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
 		{ "Path": "shops_new", "Type": "ItemCollectionDef", "AddToDB": true },
 		{ "Path": "shops_override", "Type": "ItemCollectionDef", "AddToDB": true, "ShouldAppendText": false },
 		{ "Path": "tankmovement", "Type": "MovementCapabilitiesDef", "AddToDB": true },
+		{ "Type": "UpgradeDef", "Path": "upgrade", "AddToDB": true },
 		{ "Path": "advancedmerge", "Type": "AdvancedJSONMerge" }
 		]
 }

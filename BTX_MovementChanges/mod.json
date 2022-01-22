@@ -8,7 +8,7 @@
     "Author": "lordruthermore",
 	
 	"DependsOn": [ "BT_Extended_Timeline" ],
-	"OptionallyDependsOn": [ "BTX_CampaignEdits" ],
+	"OptionallyDependsOn": [ "BTX_CampaignEdits", "BTX_OpForVehicles" ],
 	
 
 	"Manifest": [

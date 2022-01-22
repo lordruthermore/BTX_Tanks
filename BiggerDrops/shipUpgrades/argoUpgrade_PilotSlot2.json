@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_PilotSlot2",
         "Name" : "Command Console",
-        "Details" : "<b><color=#F79232>Allows you to Command an Additional Mechwarrior Directly</color></b> \n\n Ok, I think we've identified a bottleneck in the system. We're gonna need a complete overhaul of our existing processors to deal with the latency issues we've been experiencing.",
+        "Details" : "<b><color=#F79232>Enables to Drop 1 additional unit.</color></b>",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
@@ -36,9 +36,21 @@
         "tagSetSourceFile" : ""
     },
     "Stats" : [
+ 		{
+			"typeString" : "System.Int32",
+			"name" : "BiggerDrops_AdditionalMechSlots",
+			"value" : 1,
+			"valueConstant" : ""
+		},
 		{
 			"typeString" : "System.Int32",
 			"name" : "BiggerDrops_AdditionalPlayerMechSlots",
+			"value" : 1,
+			"valueConstant" : ""
+		},
+		{
+			"typeString" : "System.Int32",
+			"name" : "BiggerDrops_CuVehicleCount",
 			"value" : 1,
 			"valueConstant" : ""
 		}

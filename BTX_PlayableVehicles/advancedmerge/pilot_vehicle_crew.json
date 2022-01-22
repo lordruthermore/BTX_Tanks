@@ -19,10 +19,8 @@
 	"Instructions": [
 		{
 		"JSONPath": "$.PilotTags.items",
-		"Action": "ArrayConcat",
-		"Value": {
-			"pilot_vehicle_crew"
-			}
+		"Action": "ArrayAdd",
+		"Value": "pilot_vehicle_crew"
 		}
 	]
 }

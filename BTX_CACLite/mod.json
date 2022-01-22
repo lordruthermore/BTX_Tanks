@@ -10,8 +10,16 @@
 	"DependsOn": [ "BT_Extended_Timeline", "Custom Ammo Categories" ],
 	"OptionallyDependsOn": [ "BTX_ExtraWeapons" ],
 
+	"DLL": "BTX_CAC_CompatibilityDll.dll",
+
+	"Settings": {
+		"Use4LimitOnContractIds": [  ],
+		"ReplaceInItemCollections": {  }
+	},
+
 	"Manifest": [
 		{ "Type": "ShipModuleUpgrade", "Path": "shipUpgrades", "AddToDB": true },
+		{ "Type": "Sprite", "Path": "sprite" },
 		{ "Type": "AdvancedJSONMerge", "Path": "advancedmerge" }
     ]
 }

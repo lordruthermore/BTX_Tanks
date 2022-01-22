@@ -1,6 +1,6 @@
 {
   "debugLog": true,
-  "modHTTPServer": true,
+  "modHTTPServer": false,
   "modHTTPListen": "http://localhost:65080/",
   "WeaponRealizerStandalone": "WeaponRealizer.dll",
   "WeaponRealizerSettings": "WeaponRealizerSettings.json",
@@ -79,7 +79,7 @@
       "vehicleFiery": 15
     },
     "DecalTexture": "envTxrDecl_terrainDmgSmallBlood_alb",
-    "DrawBloodChance": 0.3
+    "DrawBloodChance": 0
   },
   "DontShowBurnedTrees": false,
   "DontShowScorchTerrain": false,
@@ -163,9 +163,9 @@
   "AIPeerToPeerNodeEnabled": false,
   "AIPeerToPeerFirewallPierceThrough": false,
   "AIMStandalone": "AttackImprovementMod.dll",
-  "AdvancedCirtProcessing": false,
+  "AdvancedCirtProcessing": true,
   "DestroyedComponentsCritTrap": false,
-  "CritLocationTransfer": false,
+  "CritLocationTransfer": true,
   "APMinCritChance": 0.1,
   "PatchWeaponSlotsOverflowCultures": [
     "CULTURE_RU_RU"

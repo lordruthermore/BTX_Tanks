@@ -11,10 +11,10 @@
   "argoUpgradeCategory2Name" : "Mech Control",
   "argoUpgradeCategory3Name" : "Drop Tonnage",
   "limitFlashpointDrop" : false,
-  "CuInitialVehicles" : 4,
+  "CuInitialVehicles" : 8,
   "respectFourDropLimit" : false,
   "limitFlashpointDrop" : true,
   "MAX_VEHICLE_SLOTS" : 8,
-  "MAX_CU_DROP_SIZE" : 12,
+  "MAX_CU_DROP_SIZE" : 16,
   "MAX_CU_ADDITINAL_MECH_SLOTS":  8
 }

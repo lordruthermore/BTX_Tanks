@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_assassin",
+		"Name": "IS ASSASSIN",
+		"Details": "This pilot has worked as an assassin.",
+		"Icon": "assassin"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_assassin"
+	]
+}

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_JunkyardLeopard",
         "Name" : "Junkyard Leopard",
-        "Details" : "We managed to find someone selling a junked Leopard, Commander. The seller says it ‘ran when parked’. If we can get it fully operational again, we’d be able to drop some Heavy Metal! .</color></b>",
+        "Details" : "Since the Argo has working small craft bays, there is no real need for the Fighter cubicles on the Leopard anymore. We can just transfer the Fighter cubicles to the Argo's cargo bays, and use the freed-up space and storage for something more useful - deploying additional units.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
@@ -34,7 +34,7 @@
     "Stats" : [ 		{
 			"typeString" : "System.Int32",
 			"name" : "MechTechSkill",
-			"value" : 1,
+			"value" : 2000,
 			"valueConstant" : ""
 		}
     ]

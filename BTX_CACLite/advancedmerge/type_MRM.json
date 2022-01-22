@@ -42,7 +42,7 @@
 		"Action": "ObjectMerge",
 		"Value": {
 			"HitGenerator" : "Individual",
-			"Unguided": false,
+			"Unguided": true,
 			"CACShortRangeAccuracyMod": 2,
 			"CACMediumRangeAccuracyMod": 3,
 			"CACLongRangeAccuracyMod": 4,
