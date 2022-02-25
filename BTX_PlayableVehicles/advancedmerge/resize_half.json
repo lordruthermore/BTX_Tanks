@@ -13,7 +13,7 @@
 		{
 		"JSONPath": "$.VehicleTags.items[1]",
 		"Action": "ArrayAddAfter",
-		"Value": "mr-resize-1.1"
+		"Value": "mr-resize-0.6"
 		}
 	]
 }
