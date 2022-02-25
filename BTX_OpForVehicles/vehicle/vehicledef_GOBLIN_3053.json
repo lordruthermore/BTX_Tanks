@@ -121,10 +121,10 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_AMS_Cal-Boeing",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_AMSCAC_0",
+      "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
-      "HardpointSlot": -1,
+      "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {
@@ -146,6 +146,13 @@
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],

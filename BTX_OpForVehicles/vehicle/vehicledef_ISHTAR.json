@@ -128,10 +128,10 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_AMS_Clan",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_AMSCAC_Clan",
+      "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
-      "HardpointSlot": -1,
+      "HardpointSlot": 2,
       "DamageLevel": "Functional"
     },
     {

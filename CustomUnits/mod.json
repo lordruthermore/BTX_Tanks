@@ -5,8 +5,9 @@
 	"PackagedOn": "2019-01-31T00:00:00Z",
 	"DLL": "CustomUnits.dll",
 	"DLLEntryPoint": "CustomUnits.Core.Init",
-	"DependsOn": [ "Custom Ammo Categories" ],
+	"DependsOn": [ "Custom Ammo Categories", "BT_Extended", "BT_Extended_Timeline", "BT_Extended_CE", "BT_Extended_3050", "BT_Extended_Clans", "BT_Extended_Quirks" ],
 	"ConflictsWith": [ "MechResizer" ],
+	"OptionallyDependsOn": [ "BT_Extended_Plus", "BT_Extended" ],
 
 	"Description": "CustomUnits",
 	"Author": "KMiSSioN",
@@ -20,7 +21,7 @@
     "waterFlatDepth": 2,
     "MechScaleJRoot": true,
     "defaultMechSizeMultiplier": 1.0,
-    "defaultVehicleSizeMultiplier": 1.5,
+    "defaultVehicleSizeMultiplier": 1,
     "defaultTurretSizeMultiplier": 1,
     "defaultProjectileSizeMultiplier": 1,
     "mechSizePrefabMultipliers": {},
@@ -28,10 +29,8 @@
     "turretSizePrefabMultipliers": {},
     "projectileSizePrefabMultipliers": {},
     "MaxVehicleRandomPilots": 0,
-    "CanPilotVehicleProbability": 1,
-    "CanPilotAlsoMechProbability": 0,
-	"CanPilotVehicleTag": "pilot_vehicle_crew",
-	"CannotPilotMechTag": "pilot_nomech_crew",
+    "CanPilotVehicleProbability": 0.0,
+    "CanPilotAlsoMechProbability": 0.5,
     "SquadStructureIcon": "ba_structure",
     "SquadArmorOutlineIcon": "ba_armor_outline",
     "SquadArmorIcon": "ba_armor",
@@ -40,13 +39,14 @@
     "ShowPassiveAbilitiesIcon": "ram",
     "HideActiveAbilitiesIcon": "futuristic",
     "HidePassiveAbilitiesIcon": "ram",
-    "overallDeploySize": 5,
-    "CountContractMaxUnits4AsUnlimited": true,
+    "overallDeploySize": 4,
     "ConvoyMaxDistFromRoute": 90,
     "DeployManual": false,
+    "DeployMaxDistanceFromOriginal": 30,
+    "DeployMinDistanceFromEnemy": 300,
     "Lances": [
       {
-        "size": 4,
+        "size": 6,
         "allow": 5,
         "is_vehicle": false
       },
@@ -71,7 +71,6 @@
       "z": 1
     }
   },
-  "CustomResourceTypes": ["CustomMechRepresentationDef"],
 	"Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
     { "Type": "SVGAsset", "Path": "icons" },

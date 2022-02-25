@@ -145,7 +145,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
+      "ComponentDefID": "Gear_SensorCAC_BeagleClan",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,

@@ -150,7 +150,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_Sensor_Beagle_ActiveProbe",
+      "ComponentDefID": "Gear_SensorCAC_Beagle",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

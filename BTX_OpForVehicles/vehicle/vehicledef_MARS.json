@@ -250,7 +250,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_Sensor_EWE_Clan",
+      "ComponentDefID": "Gear_SensorCAC_GuardianClan",
       "ComponentDefType": "Upgrade",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
