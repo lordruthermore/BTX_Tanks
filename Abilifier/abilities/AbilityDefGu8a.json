@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "AbilityDefGu8a",
-		"Name": "HULL DOWN",
-		"Details": "ACTION: This Tank Commander's crew can manuever their vehicle into a hull-down position, and make it +3 harder to see and hit. This takes away its movement in the current and following turn.",
+		"Name": "ADV. HULL DOWN",
+		"Details": "ACTION: This Tank Commander's crew can manuever their vehicle into an ideal hull-down position, and make it +6 harder to see and hit. This takes away its movement in the current and following turn.",
 		"Icon": "hulldown"
 	},
 	"DisplayParams": "ShowInMWTRay",
@@ -13,7 +13,7 @@
 	"EffectData": [
 		{
 			"durationData": {
-				"duration": 2,
+				"duration": 1,
 				"ticksOnActivations": true,
 				"useActivationsOfTarget": true,
 				"stackLimit": 1
@@ -27,12 +27,12 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "StatusEffect-HullDownCruise",
-				"Name": "HULL DOWN",
-				"Details": "This unit can not move this turn but is harder to hit for this turn and the next.",
+				"Name": "ADV. HULL DOWN",
+				"Details": "This unit can not move this turn but is +6 harder to hit.",
 				"Icon": "hulldown"
 			},
 			"statisticData": {
-				"statName": "CruiseSpeed",
+				"statName": "WalkSpeed",
 				"operation": "Float_Multiply",
 				"modValue": "0.01",
 				"modType": "System.Single"
@@ -41,7 +41,7 @@
 		},
 		{
 			"durationData": {
-				"duration": 2,
+				"duration": 1,
 				"ticksOnActivations": true,
 				"useActivationsOfTarget": true,
 				"stackLimit": 1
@@ -55,8 +55,64 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "StatusEffect-HullDownFlank",
-				"Name": "HULL DOWN",
-				"Details": "This unit can not move this turn but is +3 to hit for this turn and the next.",
+				"Name": "ADV. HULL DOWN",
+				"Details": "This unit can not move this turn but is +6 harder to hit.",
+				"Icon": "hulldown"
+			},
+			"statisticData": {
+				"statName": "RunSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},		
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownCruise",
+				"Name": "ADV. HULL DOWN",
+				"Details": "This unit can not move this turn but is +6 harder to hit.",
+				"Icon": "hulldown"
+			},
+			"statisticData": {
+				"statName": "CruiseSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": true,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownFlank",
+				"Name": "ADV. HULL DOWN",
+				"Details": "This unit can not move this turn but is +6 harder to hit.",
 				"Icon": "hulldown"
 			},
 			"statisticData": {
@@ -82,14 +138,14 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "StatusEffect-HullDownDmgReduce",
-				"Name": "Hull Down",
-				"Details": "This unit can not move this turn but is +3 harder to hit for this turn and the next.",
+				"Name": "ADV. HULL DOWN",
+				"Details": "This unit can not move this turn but is +6 harder to hit.",
 				"Icon": "shield-reflect"
 			},
 			"statisticData": {
 				"statName": "ToHitThisActor",
 				"operation": "Float_Add",
-				"modValue": "3.0",
+				"modValue": "6.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"

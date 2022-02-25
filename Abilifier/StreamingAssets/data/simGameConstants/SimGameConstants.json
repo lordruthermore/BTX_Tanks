@@ -16,7 +16,7 @@
         [
             "TraitDefWeaponHit5",
 			"AbilityDefG5",
-			"AbilityDefG5v"
+			"AbilityDefG5a"
         ],
         [
             "TraitDefWeaponHit6"
@@ -27,7 +27,7 @@
         [
             "TraitDefWeaponHit8",
 			"AbilityDefG8",
-			"AbilityDefG8v"
+			"AbilityDefG8a"
         ],
         [
             "TraitDefWeaponHit9"
@@ -53,7 +53,7 @@
         [
             "TraitDefMeleeHit5",
 			"AbilityDefP5",
-			"AbilityDefP5v"
+			"AbilityDefP5a"
         ],
         [
             "TraitDefMeleeHit6",
@@ -66,7 +66,7 @@
         [
             "TraitDefMeleeHit8",
 			"AbilityDefP8",
-			"AbilityDefP8v"
+			"AbilityDefP8a"
         ],
         [
             "TraitDefMeleeHit9",
@@ -88,7 +88,7 @@
         [
             "TraitDefRefireReduceOne",
 			"AbilityDefGu5",
-			"AbilityDefGu5v"
+			"AbilityDefGu5a"
         ],
         [
             "TraitDefOverheatAddFifteen"
@@ -99,7 +99,7 @@
         [
             "TraitDefRefireReduceTwo",
             "AbilityDefGu8",
-            "AbilityDefGu8v"
+            "AbilityDefGu8a"
         ],
         [
             "TraitDefOverheatAddThirty"
@@ -118,7 +118,7 @@
         [
             "TraitDefMinRangeReduce45",
 			"AbilityDefT5A",
-			"AbilityDefT5Av"
+			"AbilityDefT5Aa"
         ],
         [
             "TraitDefCalledShotImprove""
@@ -129,7 +129,7 @@
         [
 			"TraitDefMinRangeReduce90",
             "AbilityDefT8A",
-            "AbilityDefT8Av"
+            "AbilityDefT8Aa"
         ],
         [
             "TraitDefCalledShotMaster"

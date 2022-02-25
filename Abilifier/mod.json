@@ -49,15 +49,7 @@
 		},
 		"defaultTagTraitException": "pilot_mech_pilot",
 		"abilityReqs": {
-			"TraitDefIAmTank": [
-				"AbilityDefG5a",
-				"AbilityDefG8a",
-				"AbilityDefGu5a",
-				"AbilityDefGu8a",
-				"AbilityDefP5a",
-				"AbilityDefP8a",
-				"AbilityDefT8Aa"
-			]
+			"TraitDefIAmTank": []
 		}
 	},
 	"Manifest": [
@@ -69,10 +61,6 @@
 			"Type": "LifepathNodeDef",
 			"Path": "lifepathNode",
 			"AddToDB": false
-		},
-		{ 	"Type": "SimGameConstants",
-			"Path": "simGameConstants",
-			"ShouldMergeJSON": true
 		}
 	]
 }
