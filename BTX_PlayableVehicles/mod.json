@@ -7,7 +7,7 @@
     "Description": "",
     "Author": "lordruthermore",
 	
-	"DependsOn": [ "BT_Extended_Timeline", "BT_Extended", "BT_Extended_Clans", "CustomUnits" ],
+	"DependsOn": [ "BT_Extended_Timeline", "BT_Extended", "BT_Extended_Clans", "CustomUnits", "BTX_CAC_Compatibility" ],
 	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
 
 	"Manifest": [

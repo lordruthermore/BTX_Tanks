@@ -2,7 +2,7 @@
 	"Name": "BTX_OpForVehicles",
 	"Enabled": true,
 	"ConflictsWith": [ ],
-	"DependsOn": [ "BT_Extended_Timeline" ],
+	"DependsOn": [ "BT_Extended_Timeline", "BTX_CAC_Compatibility" ],
 	"OptionallyDependsOn": [  ],
 	"Description": "Helmtech and Clan vehicles in BTX context.",
 	"Settings": {
