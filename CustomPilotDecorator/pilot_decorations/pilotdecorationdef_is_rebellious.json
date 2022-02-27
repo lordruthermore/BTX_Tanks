@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_rebellious",
+		"Name": "IS REBELLIOUS",
+		"Details": "This pilot is rebellious.",
+		"Icon": "rebellious"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_rebellious"
+	]
+}

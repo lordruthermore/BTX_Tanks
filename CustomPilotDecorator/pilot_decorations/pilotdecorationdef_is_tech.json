@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_tech",
+		"Name": "IS TECH",
+		"Details": "This pilot has training as a Tech.",
+		"Icon": "tech"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_tech"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_officer",
+		"Name": "IS OFFICER",
+		"Details": "This pilot is an officer.",
+		"Icon": "officer"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_officer"
+	]
+}

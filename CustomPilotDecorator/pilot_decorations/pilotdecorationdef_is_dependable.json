@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_dependable",
+		"Name": "IS DEPENDABLE",
+		"Details": "This pilot is dependable.",
+		"Icon": "dependable"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_dependable"
+	]
+}

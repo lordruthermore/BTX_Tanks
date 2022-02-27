@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_military",
+		"Name": "IS MILITARY",
+		"Details": "This pilot has served in regular military.",
+		"Icon": "military"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_military"
+	]
+}

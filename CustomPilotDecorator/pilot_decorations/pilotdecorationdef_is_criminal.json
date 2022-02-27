@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_criminal",
+		"Name": "IS CRIMINAL",
+		"Details": "This pilot has a criminal past.",
+		"Icon": "criminal"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_criminal"
+	]
+}
