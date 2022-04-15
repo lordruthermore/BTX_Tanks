@@ -23,7 +23,7 @@
         
     ],
     "TechCost" : 1,
-    "PurchaseCost" : 2500000,
+    "PurchaseCost" : 500000,
     "AdditionalCost" : 100000,
     "Tags" : {
         "items" : [

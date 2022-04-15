@@ -1,8 +1,8 @@
 {
 	"TargetIDs": [
-		"mechdef_fireball_ALM-7D",
-		"mechdef_fireball_ALM-8D",
-		"mechdef_fireball_ALM-9D"
+		"chassisdef_fireball_ALM-7D",
+		"chassisdef_fireball_ALM-8D",
+		"chassisdef_fireball_ALM-9D"
 	],
 	"Instructions": [
 		{

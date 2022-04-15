@@ -20,7 +20,12 @@
 		"chassisdef_awesome_AWS-8T",
 		"chassisdef_awesome_AWS-8T_fp_theRaid",
 		"chassisdef_awesome_AWS-8V",
+		"chassisdef_awesome_AWS-9Q",
 		"chassisdef_banshee_BNC-3S",
+		"chassisdef_behemoth_stone_rhino-1",
+		"chassisdef_behemoth_stone_rhino-5",
+		"chassisdef_behemoth_stone_rhino-6",
+		"chassisdef_behemoth_stone_rhino-7",
 		"chassisdef_bullshark_BSK-M3",
 		"chassisdef_bullshark_BSK-MAZ",
 		"chassisdef_charger_CGR-SB",
@@ -57,8 +62,8 @@
 		"chassisdef_imp_IMP-2E",
 		"chassisdef_imp_IMP-3E",
 		"chassisdef_imp_IMP-4E",
-		"chassisdef_katana_CRK-5003-C",
 		"chassisdef_katana_CRK-5003-2",
+		"chassisdef_katana_CRK-5003-C",
 		"chassisdef_katana_CRK-5003-CM",
 		"chassisdef_kingcrab_KGC-000",
 		"chassisdef_kingcrab_KGC-0000",
@@ -106,7 +111,7 @@
 		"chassisdef_turkina-B",
 		"chassisdef_turkina-C",
 		"chassisdef_turkina-PRIME",
-		"chassisdef_pillager_PLG-3Z"
+		"chassisdef_viking_VKG-2F"
 	],
 	"Instructions": [
 		{

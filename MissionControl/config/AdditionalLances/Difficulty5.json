@@ -35,7 +35,7 @@
   "Enemy": {
     "Max": 1,
     "ExcludeContractTypes": [],
-    "ChanceToSpawn": 0.1,
+    "ChanceToSpawn": 0,
     "EliteLances": {
       "Conditions": ["IsEnemy"],
       "Suffix": "_Elite",
