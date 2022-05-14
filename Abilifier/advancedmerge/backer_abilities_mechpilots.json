@@ -1,7 +1,5 @@
 {
 	"TargetIDs": [
-		"pilot_backer_Alaniz",
-		"pilot_backer_Archangel",
 		"pilot_backer_Bemis",
 		"pilot_backer_Bixby",
 		"pilot_backer_Bono",
@@ -17,14 +15,11 @@
 		"pilot_backer_Doochin",
 		"pilot_backer_Doukas",
 		"pilot_backer_Durand",
-		"pilot_backer_Eck",
 		"pilot_backer_Eckett",
 		"pilot_backer_Endorf",
 		"pilot_backer_FalkA",
-		"pilot_backer_FalkM",
 		"pilot_backer_Fielding",
 		"pilot_backer_Gibbs",
-		"pilot_backer_Godfrey",
 		"pilot_backer_Hardie",
 		"pilot_backer_Helterbran",
 		"pilot_backer_Heysek",
@@ -38,7 +33,6 @@
 		"pilot_backer_Keane",
 		"pilot_backer_Korwes",
 		"pilot_backer_Lemos",
-		"pilot_backer_Leone",
 		"pilot_backer_Liebenow",
 		"pilot_backer_Loving",
 		"pilot_backer_Metke",
@@ -48,15 +42,8 @@
 		"pilot_backer_Oliver",
 		"pilot_backer_Piazza",
 		"pilot_backer_Reichenbach",
-		"pilot_backer_Reidinger",
-		"pilot_backer_Reinke",
-		"pilot_backer_Ryia",
-		"pilot_backer_Saada",
-		"pilot_backer_Sampson",
 		"pilot_backer_Shields",
 		"pilot_backer_Shvartz",
-		"pilot_backer_Slipais",
-		"pilot_backer_SwansonA",
 		"pilot_backer_SwansonK",
 		"pilot_backer_Test9",
 		"pilot_backer_Thomas",
@@ -75,20 +62,18 @@
 		"pilot_ronin_Sumo",
 		"pilot_ronin_Wildfire",
 		"pilot_ronin_Witness",
-		"pilot_sim_starter_behemoth",
 		"pilot_sim_starter_dekker",
-		"pilot_sim_starter_glitch",
 		"pilot_sim_starter_medusa"
 	],
 	"Instructions": [
 		{
 		"JSONPath": "$.abilityDefNames",
 		"Action": "ArrayConcat",
-		"Value": {
+		"Value": [
 			"TraitDefIAmMech",
 			"AbilityDef_FirstAid",
 			"AbilityDef_CarefulManeuvers"
-			}
+			]
 		}
 	]
 }

@@ -20,12 +20,12 @@
 		{
 		"JSONPath": "$.abilityDefNames",
 		"Action": "ArrayConcat",
-		"Value": {
+		"Value": [
 			"TraitDefIAmMech",
 			"AbilityDef_FirstAid",
 			"AbilityDef_CarefulManeuvers",
 			"AbilityDef_HullDown"
-			}
+			]
 		}
 	]
 }
