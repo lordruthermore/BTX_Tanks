@@ -20,7 +20,7 @@
 		"RemoveNonTreeAbilities": false,
 		"IgnoreAbilities": [],
 		"IgnorePilotsWithTags": [
-			"pilot_release_skirmish", "pilot_release_ksbeta"
+			"pilot_release_skirmish", "pilot_release_ksbeta", "pilot_backer", "pilot_player"
 		],
 		"FactionAbilities": {
 			"Wolf": ["TraitClanner"],
