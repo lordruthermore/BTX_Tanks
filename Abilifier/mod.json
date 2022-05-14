@@ -61,6 +61,7 @@
 			"Type": "LifepathNodeDef",
 			"Path": "lifepathNode",
 			"AddToDB": false
-		}
+		},
+		{ "Path": "advancedmerge", "Type": "AdvancedJSONMerge" }
 	]
 }
