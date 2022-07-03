@@ -31,6 +31,8 @@
     "MaxVehicleRandomPilots": 0,
     "CanPilotVehicleProbability": 0.0,
     "CanPilotAlsoMechProbability": 0.5,
+	"CanPilotVehicleTag": "pilot_vehicle_crew",
+	"CannotPilotMechTag": "pilot_nomech_crew",
     "SquadStructureIcon": "ba_structure",
     "SquadArmorOutlineIcon": "ba_armor_outline",
     "SquadArmorIcon": "ba_armor",
