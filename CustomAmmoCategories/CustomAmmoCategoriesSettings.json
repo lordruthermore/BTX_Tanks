@@ -255,7 +255,7 @@
   "ToHitVehicleFromRear":-2,
   "WeaponPanelWidthScale":1,
   "WeaponPanelHeightScale":1,
-  "ShowApplyHeatSinkMessage": false
+  "ShowApplyHeatSinkMessage": false,
   "DefaultMoveCosts": {
     "Naval": {
       "moveCost": 9999.9,
