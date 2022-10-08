@@ -19,9 +19,7 @@
 		"AddTreeAbilities": false,
 		"RemoveNonTreeAbilities": false,
 		"IgnoreAbilities": [],
-		"IgnorePilotsWithTags": [
-			"pilot_release_skirmish", "pilot_release_ksbeta", "pilot_backer", "pilot_player"
-		],
+		"IgnorePilotsWithTags": [],
 		"FactionAbilities": {
 			"Wolf": ["TraitClanner"],
 			"SteelViper": ["TraitClanner"],
@@ -34,6 +32,11 @@
 			"WordOfBlake": ["TraitComstar"]
 		},
 		"TagAbilities": {
+			"commander_player": [
+				"TraitDefIAmMech",
+				"AbilityDef_FirstAid",
+				"AbilityDef_CarefulManeuvers"
+			],
 			"pilot_mech_pilot": [
 				"TraitDefIAmMech",
 				"AbilityDef_FirstAid",
@@ -50,7 +53,33 @@
 				"AbilityDef_FirstAid",
 				"AbilityDef_CarefulManeuvers"
 			],
+			"pilot_mechwarrior": [
+				"AbilityDef_CarefulManeuvers",
+				"AbilityDef_FirstAid",
+				"TraitDefIAmMech"
+			],
+			"pilot_backer": [
+				"AbilityDef_CarefulManeuvers",
+				"AbilityDef_FirstAid",
+				"TraitDefIAmMech"
+			],
+			"pilot_starter": [
+				"AbilityDef_CarefulManeuvers",
+				"AbilityDef_FirstAid",
+				"TraitDefIAmMech"
+			],
+			"TBD_ronin": [
+				"AbilityDef_CarefulManeuvers",
+				"AbilityDef_FirstAid",
+				"TraitDefIAmMech"
+			],
+			"VXI": [
+				"AbilityDef_CarefulManeuvers",
+				"AbilityDef_FirstAid",
+				"TraitDefIAmMech"
+			]
 		},
 		"SwapAIAbilities": {}
 	}
+	
 }
