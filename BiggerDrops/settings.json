@@ -1,6 +1,8 @@
 {
   "debugLog": false,
+  "debugLanceLoadout": false,
   "additionalLanceName": "EXTRA LANCE",
+  "respectFourDropLimit": false,
   "additinalMechSlots": 0,
   "additinalPlayerMechSlots": 0,
   "defaultMaxTonnage": 400,
@@ -10,11 +12,17 @@
   "argoUpgradeCategory1Name" : "Drop Size",
   "argoUpgradeCategory2Name" : "Mech Control",
   "argoUpgradeCategory3Name" : "Drop Tonnage",
-  "limitFlashpointDrop" : false,
-  "CuInitialVehicles" : 8,
-  "respectFourDropLimit" : false,
-  "limitFlashpointDrop" : true,
-  "MAX_VEHICLE_SLOTS" : 8,
-  "MAX_CU_DROP_SIZE" : 16,
-  "MAX_CU_ADDITINAL_MECH_SLOTS":  8
+  "argoUpgradeCategory4Name" : "Drop Information",
+  "CuInitialVehicles" : 4,
+  "CuV2FormationSize" : 4,
+  "CuV2InitialSlots" : [
+    "default_omni_slot",
+    "default_omni_slot",
+    "default_omni_slot",
+    "default_omni_slot",
+    "default_vehicle_slot",
+    "default_vehicle_slot",
+    "default_vehicle_slot",
+    "default_vehicle_slot"
+  ]
 }
