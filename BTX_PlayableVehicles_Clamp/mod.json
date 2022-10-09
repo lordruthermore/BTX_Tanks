@@ -1,0 +1,16 @@
+{
+    "Name": "BTX_PlayableVehicles_Clamp",
+    "Enabled": true,
+
+	"Version": "0.1",
+	
+    "Description": "",
+    "Author": "lordruthermore",
+	
+	"DependsOn": [ "BTX_PlayableVehicles" ],
+	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
+
+	"Manifest": [
+		{ "Path": "vehiclechassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true }
+		]
+}

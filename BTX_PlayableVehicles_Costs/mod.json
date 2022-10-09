@@ -1,0 +1,17 @@
+{
+    "Name": "BTX_PlayableVehicles_Costs",
+    "Enabled": true,
+
+	"Version": "0.1",
+	
+    "Description": "",
+    "Author": "lordruthermore",
+	
+	"DependsOn": [ "BTX_PlayableVehicles" ],
+	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
+
+	"Manifest": [
+		{ "Path": "vehiclechassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
+		{ "Path": "vehicle", "Type": "VehicleDef", "ShouldMergeJSON": true }
+		]
+}

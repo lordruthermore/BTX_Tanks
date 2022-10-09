@@ -1,0 +1,18 @@
+{
+    "Name": "BTX_PlayableVehicles_Icons",
+    "Enabled": true,
+
+	"Version": "0.1",
+	
+    "Description": "",
+    "Author": "lordruthermore",
+	
+	"DependsOn": [ "BTX_PlayableVehicles" ],
+	"OptionallyDependsOn": [ "BTX_OpForVehicles" ],
+
+	"Manifest": [
+		{ "Path": "portraits", "Type": "Sprite" },
+		{ "Path": "vehiclechassis", "Type": "VehicleChassisDef", "ShouldMergeJSON": true },
+		{ "Path": "vehicle", "Type": "VehicleDef", "ShouldMergeJSON": true }
+		]
+}
