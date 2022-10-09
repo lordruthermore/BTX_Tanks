@@ -1,5 +1,8 @@
 # BTX_Tanks
 
+Important:
+- newest version needed to move merges into separate mods, overwrite will not work; remove old BTX_PlayableVehicles when updating
+
 Installation:
 - Install CAC-C
 - Copy and overwrite
