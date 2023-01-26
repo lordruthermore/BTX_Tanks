@@ -5,8 +5,8 @@
     "Details": "Vehicles"
   },
 	"UnitTags":["unit_piloting_type_generic_vehicle"],
-	"PilotTags":["pilot_vehicle_crew"],
+	"PilotTags":["can_pilot_generic_vehicle"],
 	"ExcludeClasses":[],
-	"expertiseGenerationChance": 0.3,
+	"expertiseGenerationChance": 1,
 	"expertiseGenerationMinCount": 1	
 }
