@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_unstable",
+		"Name": "UNSTABLE",
+		"Details": "A hothead under pressure +1 Melee Hit Chance -1 Melee Defence",
+		"Icon": "unstable"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_unstable"
+	]
+}

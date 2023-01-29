@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_drunk",
+		"Name": "DRUNK",
+		"Details": "+5% stability taken, avoids panic eject",
+		"Icon": "drunk"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_drunk"
+	]
+}

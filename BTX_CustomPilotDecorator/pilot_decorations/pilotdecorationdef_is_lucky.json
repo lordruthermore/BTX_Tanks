@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_lucky",
+		"Name": "LUCKY",
+		"Details": "+2 LRM Clustering",
+		"Icon": "lucky"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_lucky"
+	]
+}

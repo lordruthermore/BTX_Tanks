@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_honest",
+		"Name": "HONEST",
+		"Details": "+1 Morale",
+		"Icon": "honest"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_honest"
+	]
+}

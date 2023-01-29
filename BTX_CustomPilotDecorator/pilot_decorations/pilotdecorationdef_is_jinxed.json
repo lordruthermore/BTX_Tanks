@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_jinxed",
+		"Name": "JINXED",
+		"Details": "Bullet magnet -1 Defense",
+		"Icon": "jinxed"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_jinxed"
+	]
+}

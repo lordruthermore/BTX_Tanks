@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_athletic",
+		"Name": "ATHLETIC",
+		"Details": "The pilot suffers less fatigue after a mission",
+		"Icon": "athletic"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_athletic"
+	]
+}

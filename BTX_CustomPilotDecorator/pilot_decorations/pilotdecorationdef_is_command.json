@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_command",
+		"Name": "COMMANDER",
+		"Details": "Experience herding cats +1 Resolve",
+		"Icon": "command"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_command"
+	]
+}

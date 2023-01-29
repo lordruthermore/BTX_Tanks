@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_assassin",
+		"Name": "ASSASSIN",
+		"Details": "Lands those shots in just the right place +5% Called Shot",
+		"Icon": "assassin"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_assassin"
+	]
+}

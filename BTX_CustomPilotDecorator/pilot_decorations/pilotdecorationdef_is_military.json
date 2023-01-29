@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_military",
+		"Name": "MILITARY",
+		"Details": "They've seen some things +1 Bonus Health",
+		"Icon": "military"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_military"
+	]
+}

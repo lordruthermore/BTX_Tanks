@@ -1,21 +1,21 @@
 {
     "Description": {
         "Id": "movedef_4-6cv",
-        "Name": "4/6 movement at 25m hexes",
+        "Name": "4/6 Vanilla-scale movement",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 100.0,
-    "MaxSprintDistance": 150.0,
-    "WalkVelocity": 40.0,
-    "RunVelocity": 48.0,
-    "SprintVelocity": 51.0,
-    "LimpVelocity": 18.0,
-    "WalkAcceleration": 25.0,
-    "SprintAcceleration": 30.0,
-    "MaxRadialVelocity": 90.0,
-    "MaxRadialAcceleration": 180.0,
-    "MaxJumpVel": 50.0,
-    "MaxJumpAccel": 20.0,
-    "MaxJumpVerticalAccel": 45.0
+   "MaxWalkDistance" : 120.0,
+   "MaxSprintDistance" : 200.0,
+   "WalkVelocity" : 20.0,
+   "RunVelocity" : 28.0,
+   "SprintVelocity" : 31.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 15.0,
+   "SprintAcceleration" : 40.0,
+   "MaxRadialVelocity" : 300.0,
+   "MaxRadialAcceleration" : 900.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
 }

@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_klutz",
+		"Name": "KLUTZ",
+		"Details": "May eject when knocked down",
+		"Icon": "klutz"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_klutz"
+	]
+}

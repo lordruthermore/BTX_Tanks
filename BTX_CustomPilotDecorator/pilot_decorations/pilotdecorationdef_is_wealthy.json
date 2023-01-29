@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_wealthy",
+		"Name": "WEALTHY",
+		"Details": "The pilot is fatigued longer after a mission -5% upkeep",
+		"Icon": "wealthy"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_wealthy"
+	]
+}

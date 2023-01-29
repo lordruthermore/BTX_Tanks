@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_bookish",
+		"Name": "BOOKISH",
+		"Details": "+2.5%Sight&Sensors",
+		"Icon": "bookish"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_bookish"
+	]
+}

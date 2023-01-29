@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_tech",
+		"Name": "TECH",
+		"Details": "The Mechwarrior helps around the Mechbay providing +100 MechTech",
+		"Icon": "tech"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_tech"
+	]
+}

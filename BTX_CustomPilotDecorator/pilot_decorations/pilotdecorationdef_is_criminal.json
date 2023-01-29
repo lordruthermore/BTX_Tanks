@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_criminal",
+		"Name": "CRIMINAL",
+		"Details": "1% Chance per day to earn 5000 Cbills from underhand means, or to go missing",
+		"Icon": "criminal"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_criminal"
+	]
+}

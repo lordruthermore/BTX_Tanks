@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_disgraced",
+		"Name": "DISGRACED",
+		"Details": "Didn't buy the first round -1 Resolve",
+		"Icon": "disgraced"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_disgraced"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_cautious",
+		"Name": "CAUTIOUS",
+		"Details": "Naturally inclined not to expire +1 Defense -1 Accuracy",
+		"Icon": "cautious"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_cautious"
+	]
+}

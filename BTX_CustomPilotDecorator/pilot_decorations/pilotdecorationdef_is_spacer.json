@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_spacer",
+		"Name": "SPACER",
+		"Details": "Reduces Argo Upkeep by 1%",
+		"Icon": "spacer"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_spacer"
+	]
+}

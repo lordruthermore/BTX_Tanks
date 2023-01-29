@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_rebellious",
+		"Name": "REBELLIOUS",
+		"Details": "You are not the boss of them -1 Resolve",
+		"Icon": "rebellious"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_rebellious"
+	]
+}

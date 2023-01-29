@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_lostech",
+		"Name": "LOSTECH",
+		"Details": "The Mechwarrior has invaluable experience around the Mechbay providing +200 MechTech, +10% Pilot Upkeep",
+		"Icon": "lostech"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_lostech"
+	]
+}

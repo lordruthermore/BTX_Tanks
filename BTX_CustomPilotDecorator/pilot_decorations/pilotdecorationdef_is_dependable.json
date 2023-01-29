@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_dependable",
+		"Name": "DEPENDABLE",
+		"Details": "Improved Panic Resist",
+		"Icon": "dependable"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_dependable"
+	]
+}

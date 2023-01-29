@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_dishonest",
+		"Name": "DISHONEST",
+		"Details": "1% Chance per day for 5000 Cbills to go missing",
+		"Icon": "dishonest"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_dishonest"
+	]
+}

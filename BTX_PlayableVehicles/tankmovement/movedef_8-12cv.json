@@ -1,21 +1,21 @@
 {
     "Description": {
         "Id": "movedef_8-12cv",
-        "Name": "8/12 movement at 25m hexes",
+        "Name": "8/12 Vanilla-scale movement",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 200.0,
-    "MaxSprintDistance": 300.0,
-    "WalkVelocity": 40.0,
-    "RunVelocity": 48.0,
-    "SprintVelocity": 51.0,
-    "LimpVelocity": 18.0,
-    "WalkAcceleration": 25.0,
-    "SprintAcceleration": 30.0,
-    "MaxRadialVelocity": 90.0,
-    "MaxRadialAcceleration": 180.0,
-    "MaxJumpVel": 80.0,
-    "MaxJumpAccel": 30.0,
-    "MaxJumpVerticalAccel": 60.0
+   "MaxWalkDistance" : 210.0,
+   "MaxSprintDistance" : 350.0,
+   "WalkVelocity" : 12.0,
+   "RunVelocity" : 24.0,
+   "SprintVelocity" : 28.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 25.0,
+   "SprintAcceleration" : 40.0,
+   "MaxRadialVelocity" : 480.0,
+   "MaxRadialAcceleration" : 1600.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
 }

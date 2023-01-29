@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_noble",
+		"Name": "NOBLE",
+		"Details": "Reduces Cost and Upkeep for Argo Morale and Med Upgrades by 1%",
+		"Icon": "noble"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_noble"
+	]
+}

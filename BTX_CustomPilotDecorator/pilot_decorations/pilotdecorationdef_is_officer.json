@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_officer",
+		"Name": "OFFICER",
+		"Details": "+2.5% Lance Sight&Sensors",
+		"Icon": "officer"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_officer"
+	]
+}

@@ -1,21 +1,21 @@
 {
     "Description": {
         "Id": "movedef_14-21cv",
-        "Name": "14/21 movement at 25m hexes",
+        "Name": "14/21 Vanilla-scale movement",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 350.0,
-    "MaxSprintDistance": 525.0,
-    "WalkVelocity": 50.0,
-    "RunVelocity": 58.0,
-    "SprintVelocity": 61.0,
-    "LimpVelocity": 28.0,
-    "WalkAcceleration": 25.0,
-    "SprintAcceleration": 30.0,
-    "MaxRadialVelocity": 90.0,
-    "MaxRadialAcceleration": 180.0,
-    "MaxJumpVel": 80.0,
-    "MaxJumpAccel": 30.0,
-    "MaxJumpVerticalAccel": 60.0
+   "MaxWalkDistance" : 370.0,
+   "MaxSprintDistance" : 580.0,
+   "WalkVelocity" : 20.0,
+   "RunVelocity" : 28.0,
+   "SprintVelocity" : 31.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 15.0,
+   "SprintAcceleration" : 20.0,
+   "MaxRadialVelocity" : 60.0,
+   "MaxRadialAcceleration" : 180.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
 }

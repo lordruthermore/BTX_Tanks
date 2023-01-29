@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_gladiator",
+		"Name": "GLADIATOR",
+		"Details": "Less resolve lost when fatigued and does not get Low Spirits from fatigue",
+		"Icon": "gladiator"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_gladiator"
+	]
+}

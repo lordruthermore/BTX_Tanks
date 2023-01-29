@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_reckless",
+		"Name": "RECKLESS",
+		"Details": "Shoot first, question the corpse later +1 To Hit -1 Defence",
+		"Icon": "reckless"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_reckless"
+	]
+}

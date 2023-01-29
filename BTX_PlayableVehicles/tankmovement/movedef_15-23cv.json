@@ -1,12 +1,12 @@
 {
     "Description": {
         "Id": "movedef_15-23cv",
-        "Name": "15/23 movement at 25m hexes",
+        "Name": "15/23 Vanilla-scale movement",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 375.0,
-    "MaxSprintDistance": 563.0,
+    "MaxWalkDistance": 400.0,
+    "MaxSprintDistance": 610.0,
     "WalkVelocity": 50.0,
     "RunVelocity": 58.0,
     "SprintVelocity": 61.0,

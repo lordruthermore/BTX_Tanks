@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_naive",
+		"Name": "NAIVE",
+		"Details": "Has trouble identifying sensor blip info",
+		"Icon": "naive"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_naive"
+	]
+}

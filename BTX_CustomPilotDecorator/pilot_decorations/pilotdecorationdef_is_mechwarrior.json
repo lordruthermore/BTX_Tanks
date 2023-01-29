@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_mechwarrior",
+		"Name": "MECHWARRIOR",
+		"Details": "Harder to land a melee strike against this pilot +1 Melee Defence",
+		"Icon": "mechwarrior"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_mechwarrior"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_merchant",
+		"Name": "MERCHANT",
+		"Details": "Getting the best prices on parts reduces Argo Upgrade prices by 1%, 1% Chance for 5000Cbills/Day",
+		"Icon": "merchant"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_merchant"
+	]
+}

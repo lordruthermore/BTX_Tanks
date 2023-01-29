@@ -1,21 +1,21 @@
 {
     "Description": {
         "Id": "movedef_5-8cv",
-        "Name": "5/8 movement at 25m hexes",
+        "Name": "5/8 Vanilla-scale movement",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 125.0,
-    "MaxSprintDistance": 188.0,
-    "WalkVelocity": 40.0,
-    "RunVelocity": 48.0,
-    "SprintVelocity": 51.0,
-    "LimpVelocity": 18.0,
-    "WalkAcceleration": 25.0,
-    "SprintAcceleration": 30.0,
-    "MaxRadialVelocity": 90.0,
-    "MaxRadialAcceleration": 180.0,
-    "MaxJumpVel": 50.0,
-    "MaxJumpAccel": 20.0,
-    "MaxJumpVerticalAccel": 45.0
+   "MaxWalkDistance" : 140.0,
+   "MaxSprintDistance" : 240.0,
+   "WalkVelocity" : 20.0,
+   "RunVelocity" : 28.0,
+   "SprintVelocity" : 31.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 15.0,
+   "SprintAcceleration" : 20.0,
+   "MaxRadialVelocity" : 60.0,
+   "MaxRadialAcceleration" : 180.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
 }

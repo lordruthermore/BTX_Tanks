@@ -1,0 +1,12 @@
+{
+	"Description": {
+		"Id": "pilotdecorationdef_is_brave",
+		"Name": "BRAVE",
+		"Details": "Improved panic resistance",
+		"Icon": "brave"
+	},
+	"Type":"Shevron",
+	"ShouldHaveTags": [
+		"pilot_brave"
+	]
+}
