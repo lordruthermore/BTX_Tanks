@@ -16,6 +16,7 @@
 		{ "Path": "itemcollection", "Type": "ItemCollectionDef", "AddToDB": true, "ShouldAppendText": false },
 		{ "Path": "tankmovement", "Type": "MovementCapabilitiesDef", "AddToDB": true },
 		{ "Type": "UpgradeDef", "Path": "upgrade", "AddToDB": true },
-		{ "Path": "advancedmerge", "Type": "AdvancedJSONMerge" }
+		{ "Path": "advancedmerge", "Type": "AdvancedJSONMerge" },
+		{ "Path": "piloting_classes", "Type": "PilotingClassDef" }
 		]
 }
