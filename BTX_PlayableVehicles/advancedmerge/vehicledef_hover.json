@@ -57,7 +57,11 @@
 		"vehicledef_REGULATOR",
 		"vehicledef_SABAKUKAZE",
 		"vehicledef_ZEPHYR",
-		"vehicledef_ZEPHYR_Royal"
+		"vehicledef_ZEPHYR_Royal",
+		"vehicledef_APC_HeavyHover_LRM",
+		"vehicledef_APC_HeavyHover_MG",
+		"vehicledef_APC_HeavyHover_SRM",
+		"vehicledef_APC_HeavyHover"
 	],
     "Instructions": [
         {
