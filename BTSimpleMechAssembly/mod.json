@@ -83,6 +83,7 @@
     "FakeVehilceTag": "fake_vehicle_chassis",
     /*enable to salvage and assemble vehicles (requires CU)*/
     "SalvageAndAssembleVehicles": true,
+    "MAIntegration_OverrideOnly": true,
     /*set to true if you want to show all possible variants in the assembly popup. useful for checking variant assembly*/
     "ShowAllVariantsInPopup": false,
     /*allows salvaging and assembly of mechs whose id does not match the chassisdef id (excluding mechdef_ and chassidef_).
